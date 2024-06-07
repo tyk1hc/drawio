@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T02:05:59.150Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="6MWd8nfwXYGhsnnuPl7P" version="24.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T02:55:16.893Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="Fqv2e2zO-D9V5t9i5479" version="24.5.1" type="github">
   <diagram name="Page-1" id="dHrKeRYCyX4cQdZNMJg0">
-    <mxGraphModel dx="1290" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1900" dy="-542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aGbD8Fvf6BNEcAQ8BdLQ-1" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Stardog&#39;s security model is based on standard role-based access control:&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div&gt;. Users have &lt;b&gt;permissions &lt;/b&gt;over &lt;b&gt;resources &lt;/b&gt;during sessions.&lt;/div&gt;&lt;div&gt;. Permissions can be grouped into &lt;b&gt;roles &lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;. Roles can be assigned to &lt;b&gt;users&lt;/b&gt;.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" vertex="1" parent="1">
+          <mxGeometry y="1120" width="480" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="aGbD8Fvf6BNEcAQ8BdLQ-2" value="&lt;div&gt;Authorization&lt;/div&gt;&lt;div&gt;Authorization in Stardog works like so:&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Users and Roles are granted specific access to Resources independent of how you are authenticating users.&lt;/li&gt;&lt;li&gt;While explicit grants to individual Users are allowed, it is highly encouraged to utilize Roles as much as possible.&lt;/li&gt;&lt;/ol&gt;&lt;blockquote&gt;&lt;ul&gt;&lt;li&gt;Easily grant batches of permissions to a given User by assigning a Role.&lt;/li&gt;&lt;li&gt;Easily know what permissions Users have by looking at Roles&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;dashed=1;dashPattern=12 12;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1120" width="770" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="aGbD8Fvf6BNEcAQ8BdLQ-3" value="&lt;div&gt;Permissions &lt;br&gt;&lt;/div&gt;&lt;div&gt;Anatomy of a Permission&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Permissions consist of a Subject, Action, and Resource.&lt;/li&gt;&lt;/ol&gt;&lt;blockquote&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Subject &lt;/b&gt;can perform &lt;b&gt;Action &lt;/b&gt;over &lt;b&gt;Resource&lt;/b&gt;.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;ol&gt;&lt;li&gt;Subject is either a User or a Role.&lt;/li&gt;&lt;li&gt;Resource consists of a resource type followed by a resource identifier or wildcard.&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" vertex="1" parent="1">
+          <mxGeometry y="1280" width="480" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
