@@ -248,13 +248,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1Ky3Qcy9TLfeJBqsWoGZ-28" value="m.3 becomes new base commit for commits created in feature branch." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="920" y="1400" width="240" height="80" as="geometry" />
+          <mxGeometry x="920" y="1360" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1Ky3Qcy9TLfeJBqsWoGZ-29" value="rebase master to feature branch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="920" y="1520" width="240" height="40" as="geometry" />
+          <mxGeometry x="920" y="1440" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1Ky3Qcy9TLfeJBqsWoGZ-30" value="merge rebased feature into master" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="920" y="1600" width="240" height="40" as="geometry" />
+          <mxGeometry x="920" y="1520" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Ky3Qcy9TLfeJBqsWoGZ-31" value="&lt;div&gt;rebase does not move commits, it creates new commits.&lt;/div&gt;&lt;div&gt;---&lt;/div&gt;&lt;div&gt;Never rebase commits outside your repository!&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1600" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
