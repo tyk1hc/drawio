@@ -331,11 +331,20 @@
         <mxCell id="pKciE0PQjw8IJ3S3WyIL-21" value="Local Tracking Branch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="2480" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pKciE0PQjw8IJ3S3WyIL-22" value="Local copy of remote branch (not to be edited)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-22" value="Local copy of remote branch (not to be edited)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="320" y="2425" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pKciE0PQjw8IJ3S3WyIL-23" value="Local reference to remote tracking branch (to be edited)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-23" value="Local reference to remote tracking branch (to be edited)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="320" y="2485" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-24" value="git fetch" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2425" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-25" value="git push" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-26" value="git pull" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2520" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
