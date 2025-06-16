@@ -346,6 +346,54 @@
         <mxCell id="pKciE0PQjw8IJ3S3WyIL-26" value="git pull" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="720" y="2520" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="2560" as="sourcePoint" />
+            <mxPoint x="840" y="2560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-28" value="Remote Branch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2600" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-29" value="Remote Tracking Branch&lt;br&gt;Local cache of remote branch&#39;s content" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2730" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-30" value="Local Tracking Branch&lt;br&gt;Remote repository&#39;s name (origin) and branch name can be omitted." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2860" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-31" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="2680" as="sourcePoint" />
+            <mxPoint x="80" y="2720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-32" value="git fetch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2686" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="2721" as="sourcePoint" />
+            <mxPoint x="240" y="2681" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="2810" as="sourcePoint" />
+            <mxPoint x="80" y="2850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="2850" as="sourcePoint" />
+            <mxPoint x="240" y="2810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-36" value="git merge" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2800" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-37" value="git push" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2830" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
