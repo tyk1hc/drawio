@@ -394,6 +394,42 @@
         <mxCell id="pKciE0PQjw8IJ3S3WyIL-37" value="git push" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="160" y="2830" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-38" value="git remote" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2610" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-39" value="Show remote servers" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2610" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-40" value="git branch -a&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2720" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-41" value="List all branches" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2716" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-42" value="git branch -r" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2760" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-43" value="Show remote tracking branches" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2760" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-44" value="git remote show origin" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2800" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-45" value="Show detailed configuration" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2800" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-46" value="git branch -vv" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2860" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-47" value="List local tracking branches and their remotes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2860" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-48" value="git branch --track branchname origin/branchname" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2910" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pKciE0PQjw8IJ3S3WyIL-49" value="Create local tracking branch" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2910" width="240" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
