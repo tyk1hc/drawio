@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="27.1.5">
   <diagram name="Page-1" id="PkKd_JiGjUPgfaHdr4iB">
-    <mxGraphModel dx="2066" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -463,41 +463,86 @@
         <mxCell id="pKciE0PQjw8IJ3S3WyIL-61" value="Clone repository into directory" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="160" y="3240" width="560" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6VeaWRjW4rlJXL9HbGjD-1" value="Repository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="6VeaWRjW4rlJXL9HbGjD-1" value="Repository" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="40" y="3440" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6VeaWRjW4rlJXL9HbGjD-2" value="Branches" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6VeaWRjW4rlJXL9HbGjD-2" value="Branches" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="3520" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6VeaWRjW4rlJXL9HbGjD-3" value="Local" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="6VeaWRjW4rlJXL9HbGjD-3" value="Local" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="280" y="3440" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6VeaWRjW4rlJXL9HbGjD-5" value="Git" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="6VeaWRjW4rlJXL9HbGjD-5" value="Git" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="320" y="3360" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6VeaWRjW4rlJXL9HbGjD-6" value="GitHub" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="6VeaWRjW4rlJXL9HbGjD-6" value="GitHub" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="560" y="3360" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6VeaWRjW4rlJXL9HbGjD-7" value="Remote" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6VeaWRjW4rlJXL9HbGjD-7" value="Remote" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="3440" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6VeaWRjW4rlJXL9HbGjD-8" value="Local-Tracking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6VeaWRjW4rlJXL9HbGjD-8" value="Local-Tracking" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="3520" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6VeaWRjW4rlJXL9HbGjD-9" value="Remote-Tracking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6VeaWRjW4rlJXL9HbGjD-9" value="Remote-Tracking" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="3600" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6VeaWRjW4rlJXL9HbGjD-10" value="Remote" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6VeaWRjW4rlJXL9HbGjD-10" value="Remote" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="3520" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6VeaWRjW4rlJXL9HbGjD-11" value="git remote add origin URL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6VeaWRjW4rlJXL9HbGjD-11" value="git remote add origin URL" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="3440" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6VeaWRjW4rlJXL9HbGjD-12" value="git branch --track branchname origin/branchname" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6VeaWRjW4rlJXL9HbGjD-12" value="git branch --track branchname origin/branchname" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="3520" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6VeaWRjW4rlJXL9HbGjD-13" value="git pull/push origin branch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6VeaWRjW4rlJXL9HbGjD-13" value="git pull/push origin branch" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="3600" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8HfE3LliS8L9q-A9kqxw-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;GitHub&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3760" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8HfE3LliS8L9q-A9kqxw-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Account A &lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8HfE3LliS8L9q-A9kqxw-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;GitHub&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="560" y="3760" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8HfE3LliS8L9q-A9kqxw-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Account B &lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="3800" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8HfE3LliS8L9q-A9kqxw-6" value="Remote Repo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="3880" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8HfE3LliS8L9q-A9kqxw-7" value="Direct Connection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="3960" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8HfE3LliS8L9q-A9kqxw-8" value="Local copy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="4040" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8HfE3LliS8L9q-A9kqxw-10" value="Push to remote repo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="4160" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8HfE3LliS8L9q-A9kqxw-11" value="Push to remote repo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="4240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8HfE3LliS8L9q-A9kqxw-12" value="Remote Repo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4160" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8HfE3LliS8L9q-A9kqxw-13" value="Accept Pull Request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4060" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8HfE3LliS8L9q-A9kqxw-14" value="git clone" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="4090" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8HfE3LliS8L9q-A9kqxw-15" value="Merge" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3960" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8HfE3LliS8L9q-A9kqxw-16" value="Remote Repo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3880" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8HfE3LliS8L9q-A9kqxw-17" value="&lt;div&gt;Remote copy&lt;/div&gt;&lt;div&gt;Fork on GitHub&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="3800" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
