@@ -339,8 +339,8 @@
         <mxCell id="3A7KvF8rSeJm4cNPrQmB-166" value="&lt;font&gt;can play&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="-183" y="556" width="85" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3A7KvF8rSeJm4cNPrQmB-169" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;:writer&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=103;" parent="1" vertex="1">
-          <mxGeometry x="-470" y="1605" width="60" height="30" as="geometry" />
+        <mxCell id="3A7KvF8rSeJm4cNPrQmB-169" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;:writer&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" parent="1" vertex="1">
+          <mxGeometry x="-450" y="1620" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3A7KvF8rSeJm4cNPrQmB-170" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.435;entryY=1.192;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -351,7 +351,7 @@
         <mxCell id="3A7KvF8rSeJm4cNPrQmB-171" value="&lt;span&gt;writer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="-360" y="660" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4Dy1q6GXWefjnNSAtW9p-13" value="&lt;b&gt;:hasMemberArtist&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;rotation=-30;" vertex="1" parent="1">
+        <mxCell id="4Dy1q6GXWefjnNSAtW9p-13" value="&lt;b&gt;:hasMembersArtist&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;rotation=-30;" vertex="1" parent="1">
           <mxGeometry x="-599.9994987724438" y="1574.9983607764607" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4Dy1q6GXWefjnNSAtW9p-14" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;virtualProperty&amp;gt;&amp;gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=330;fontColor=light-dark(#000000, #ededed);" vertex="1" parent="1">
