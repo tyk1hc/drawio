@@ -1,16 +1,16 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="28.0.7">
   <diagram name="Page-1" id="kwjImpuqmJLJjczvCFeu">
-    <mxGraphModel dx="1764" dy="1602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1764" dy="1636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="B1bUDCd7ulW--QVvzsSq-1" value="&lt;div&gt;UML Diagrams&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="-160" width="1240" height="40" as="geometry" />
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;UML Diagrams&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="-200" width="1240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="B1bUDCd7ulW--QVvzsSq-2" value="Structure Diagrams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Structure Diagrams&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-200" y="-80" width="560" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="B1bUDCd7ulW--QVvzsSq-3" value="Behaviour Diagrams" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Behaviour Diagrams&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="480" y="-80" width="560" height="40" as="geometry" />
         </mxCell>
         <mxCell id="B1bUDCd7ulW--QVvzsSq-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
