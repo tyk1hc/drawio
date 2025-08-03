@@ -25,10 +25,10 @@
             <mxPoint x="450" y="-60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B1bUDCd7ulW--QVvzsSq-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-6" value="&lt;b&gt;Package diagram&lt;br&gt;&lt;/b&gt;System groupings and their dependencies.&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="B1bUDCd7ulW--QVvzsSq-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-7" value="&lt;b&gt;Class diagram&lt;/b&gt;&lt;br&gt;System classes, their attributes and the relationships between the classes." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-200" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="B1bUDCd7ulW--QVvzsSq-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
