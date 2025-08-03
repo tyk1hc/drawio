@@ -37,6 +37,21 @@
         <mxCell id="B1bUDCd7ulW--QVvzsSq-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" width="240" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-10" value="&lt;div&gt;&lt;b&gt;Object diagram&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Partial and complete view of the structure of a system at a specific time.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-11" value="&lt;div&gt;&lt;b&gt;Component diagram&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Components and their dependencies in a software system.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="240" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-12" value="&lt;div&gt;&lt;b&gt;Deployment diagram&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Hardware in a system implementation and their deployed environment and artifacts.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="360" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-13" value="&lt;b&gt;Composite structure diagram&lt;/b&gt;&lt;br&gt;Internal structure of a classifier and the collaborations this structure enables." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-14" value="&lt;div&gt;&lt;b&gt;Profile diagram&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Metamodel to show stereotypes as classes and profiles as packages.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="240" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
