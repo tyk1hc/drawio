@@ -106,6 +106,36 @@
             <mxPoint x="810" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-26" value="&lt;div&gt;&lt;b&gt;Sequence diagram&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Object communication and lifespans represented by the message passed between them&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-27" value="&lt;div&gt;&lt;b&gt;Communication diagram&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Object interaction represented by sequenced messages.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="320" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-28" value="&lt;div&gt;&lt;b&gt;Timing diagram&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Timing constraints within a system &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-29" value="&lt;div&gt;&lt;b&gt;Interaction overview diagram&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;System overview where each node is a communication diagram. &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="440" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="B1bUDCd7ulW--QVvzsSq-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="480" as="sourcePoint" />
+            <mxPoint x="759.5" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-31" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="B1bUDCd7ulW--QVvzsSq-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="360" as="sourcePoint" />
+            <mxPoint x="770" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B1bUDCd7ulW--QVvzsSq-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="B1bUDCd7ulW--QVvzsSq-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="480" as="sourcePoint" />
+            <mxPoint x="770" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
