@@ -213,7 +213,7 @@
             <mxRectangle width="400" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KA8wCs6MOciPEU11_kaX-50" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-48">
+        <mxCell id="KA8wCs6MOciPEU11_kaX-50" value="Runs in steps: Think -&amp;gt; Act -&amp;gt; Observe -&amp;gt; Repeat" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-48">
           <mxGeometry x="400" width="400" height="40" as="geometry">
             <mxRectangle width="400" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -226,7 +226,7 @@
             <mxRectangle width="400" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KA8wCs6MOciPEU11_kaX-53" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-51">
+        <mxCell id="KA8wCs6MOciPEU11_kaX-53" value="Monitors performance or verifies output quality." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-51">
           <mxGeometry x="400" width="400" height="40" as="geometry">
             <mxRectangle width="400" height="40" as="alternateBounds" />
           </mxGeometry>
