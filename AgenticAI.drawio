@@ -231,6 +231,199 @@
             <mxRectangle width="400" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-54" value="&lt;div&gt;&lt;b&gt;Agent Execution Loop (Simplified View)&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Here&#39;s how the agent loop typically works:&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Receive Goal (e.g., &quot;Plan a 3-day trip to Tokyot)&lt;/li&gt;&lt;li&gt;Decompose goal into steps&lt;/li&gt;&lt;li&gt;Choose tool or action for the current step&lt;/li&gt;&lt;li&gt;Execute the action&lt;/li&gt;&lt;li&gt;Store result in memory&lt;/li&gt;&lt;li&gt;Repeat &lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Many frameworks (like LangChain, OpenAI AutoGPT, Meta&#39;s LLaMA Agents, etc.) use this kind of loop.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1090" width="800" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-55" value="&lt;div&gt;Tools &amp;amp; Technologies Used&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;LLMs: GPT-4, Claude, LLaMA, etc.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Toolchains: LangChain, Semantic Kernel, CrewAI&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Memory modules: Vector stores (e.g., Pinecone, Chroma), local memory.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Agents: AutoGPT, BabyAGI, ReAct, OpenAI&#39;s function-calling agents&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Environments: API access, browsers, databases, file systems.&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1310" width="800" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-56" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Example Use Cases for Agentic AI&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1490" width="800" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-57" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1520" width="800" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-58" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-57">
+          <mxGeometry width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-59" value="&lt;b&gt;Domain&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-58">
+          <mxGeometry width="240" height="40" as="geometry">
+            <mxRectangle width="240" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-60" value="&lt;b&gt;Use Case&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-58">
+          <mxGeometry x="240" width="560" height="40" as="geometry">
+            <mxRectangle width="560" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-61" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-57">
+          <mxGeometry y="40" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-62" value="Business Ops" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-61">
+          <mxGeometry width="240" height="40" as="geometry">
+            <mxRectangle width="240" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-63" value="&lt;div align=&quot;left&quot;&gt;Automate sales reporting, customer follow-ups, meeting summarization&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-61">
+          <mxGeometry x="240" width="560" height="40" as="geometry">
+            <mxRectangle width="560" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-64" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-57">
+          <mxGeometry y="80" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-65" value="Research" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-64">
+          <mxGeometry width="240" height="40" as="geometry">
+            <mxRectangle width="240" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-66" value="&lt;div align=&quot;left&quot;&gt;AI agent reads papers, summarizes, compares insights&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-64">
+          <mxGeometry x="240" width="560" height="40" as="geometry">
+            <mxRectangle width="560" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-67" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-57">
+          <mxGeometry y="120" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-68" value="Devops" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-67">
+          <mxGeometry width="240" height="40" as="geometry">
+            <mxRectangle width="240" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-69" value="Agent debugs code, tests it, deploys, and monitors output." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-67">
+          <mxGeometry x="240" width="560" height="40" as="geometry">
+            <mxRectangle width="560" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-70" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-57">
+          <mxGeometry y="160" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-71" value="Web Automation" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-70">
+          <mxGeometry width="240" height="40" as="geometry">
+            <mxRectangle width="240" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-72" value="Search, extract data, fill forms, analyze sites" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-70">
+          <mxGeometry x="240" width="560" height="40" as="geometry">
+            <mxRectangle width="560" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-73" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-57">
+          <mxGeometry y="200" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-74" value="Personal Assistant" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-73">
+          <mxGeometry width="240" height="40" as="geometry">
+            <mxRectangle width="240" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-75" value="Book travel, schedule meetings, plan events" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-73">
+          <mxGeometry x="240" width="560" height="40" as="geometry">
+            <mxRectangle width="560" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-76" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-57">
+          <mxGeometry y="240" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-77" value="Finance" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-76">
+          <mxGeometry width="240" height="40" as="geometry">
+            <mxRectangle width="240" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-78" value="Portfolio monitoring, financial analysis, alerts" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-76">
+          <mxGeometry x="240" width="560" height="40" as="geometry">
+            <mxRectangle width="560" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-79" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Example: &lt;/b&gt;Library System Agentic AI&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1850" width="800" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-80" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Imagine you want an agent that manages overdue books:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Agent reads system logs daily&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Identifies overdue items&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Checks contact preferences of users&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Sends reminder emails&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Logs outcomes and retries as needed&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Here, the agent isn&#39;t just running a crob job -- it can adjust behavior, escalate issues, or sumarize patterns over time.&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1900" width="790" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-81" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Summary&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2090" width="800" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-82" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2120" width="800" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-83" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-82">
+          <mxGeometry width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-84" value="&lt;b&gt;Feature&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-83">
+          <mxGeometry width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-85" value="&lt;b&gt;Description&lt;/b&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-83">
+          <mxGeometry x="280" width="520" height="40" as="geometry">
+            <mxRectangle width="520" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-86" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-82">
+          <mxGeometry y="40" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-87" value="Agentic AI" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-86">
+          <mxGeometry width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-88" value="AI that behaves like an autonomous agent." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-86">
+          <mxGeometry x="280" width="520" height="40" as="geometry">
+            <mxRectangle width="520" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-89" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-82">
+          <mxGeometry y="80" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-90" value="Core Traits&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-89">
+          <mxGeometry width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-91" value="Goal-driven, iterative, uses tools, stores memory, can adapt." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-89">
+          <mxGeometry x="280" width="520" height="40" as="geometry">
+            <mxRectangle width="520" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-92" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-82">
+          <mxGeometry y="120" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-93" value="Architect Includes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-92">
+          <mxGeometry width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-94" value="Planner, Memory, Tool Interface, LLM, Execution Loop" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-92">
+          <mxGeometry x="280" width="520" height="40" as="geometry">
+            <mxRectangle width="520" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-95" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-82">
+          <mxGeometry y="160" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-96" value="Why It Matters" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-95">
+          <mxGeometry width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-97" value="Enable long-horizon, flexible, task-oriented AI" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-95">
+          <mxGeometry x="280" width="520" height="40" as="geometry">
+            <mxRectangle width="520" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-98" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-82">
+          <mxGeometry y="200" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-99" value="Use cases" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-98">
+          <mxGeometry width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA8wCs6MOciPEU11_kaX-100" value="Ranges from DevOps to research assistants, automations, and personal agents." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="KA8wCs6MOciPEU11_kaX-98">
+          <mxGeometry x="280" width="520" height="40" as="geometry">
+            <mxRectangle width="520" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
