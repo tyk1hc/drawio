@@ -833,7 +833,7 @@
         <mxCell id="Q7vS4olmBMETiueZwEA2-22" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Vector Search&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2600" y="890" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Q7vS4olmBMETiueZwEA2-23" value="&lt;div&gt;You search for &quot;tired cat&quot; using a vector database. It can return results that say:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;The feline is resting&lt;/li&gt;&lt;li&gt;A kitten napping on the couch&lt;/li&gt;&lt;li&gt;Exhausted animal lounging&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Because the meaning is similar&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Q7vS4olmBMETiueZwEA2-23" value="&lt;div&gt;You search for &quot;tired cat&quot; using a vector database. It can return results that say:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;The feline is resting&lt;/li&gt;&lt;li&gt;A kitten napping on the couch&lt;/li&gt;&lt;li&gt;Exhausted animal lounging&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Because the &lt;b&gt;meaning &lt;/b&gt;is similar&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2600" y="920" width="800" height="110" as="geometry" />
         </mxCell>
       </root>
