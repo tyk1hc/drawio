@@ -145,6 +145,9 @@
         <mxCell id="MlYqjOnE9EuYvu6xzNQ--43" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="MlYqjOnE9EuYvu6xzNQ--41">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="MlYqjOnE9EuYvu6xzNQ--44" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Their Relationship in Practice&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;The Originator has the knowledge of how to save and restore its state.&lt;/li&gt;&lt;li&gt;The Caretaker acts like a history manager or an undo manager.&lt;/li&gt;&lt;li&gt;The Caretaker asks the Originator to create a memento, and it keeps that memento safe for later.&lt;/li&gt;&lt;li&gt;When needed, the Caretaker gives the memento back to the Originator so it can restore its state.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;The Caretaker never directly accesses the state inside the memento -- this preserves encapsulation.&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="920" width="760" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
