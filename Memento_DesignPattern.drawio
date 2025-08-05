@@ -100,7 +100,7 @@
         <mxCell id="MlYqjOnE9EuYvu6xzNQ--24" value="+ SaveState(originator: Originator): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MlYqjOnE9EuYvu6xzNQ--21">
           <mxGeometry y="60" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="MlYqjOnE9EuYvu6xzNQ--25" value="+ method(originator: Originator): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MlYqjOnE9EuYvu6xzNQ--21">
+        <mxCell id="MlYqjOnE9EuYvu6xzNQ--25" value="+ Undo(originator: Originator): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MlYqjOnE9EuYvu6xzNQ--21">
           <mxGeometry y="86" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="MlYqjOnE9EuYvu6xzNQ--26" value="Originator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -112,10 +112,10 @@
         <mxCell id="MlYqjOnE9EuYvu6xzNQ--28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="MlYqjOnE9EuYvu6xzNQ--26">
           <mxGeometry y="52" width="240" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="MlYqjOnE9EuYvu6xzNQ--29" value="+ createMemento(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MlYqjOnE9EuYvu6xzNQ--26">
+        <mxCell id="MlYqjOnE9EuYvu6xzNQ--29" value="+ CreateMemento(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MlYqjOnE9EuYvu6xzNQ--26">
           <mxGeometry y="60" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="MlYqjOnE9EuYvu6xzNQ--30" value="+ restore(memento: Memento): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MlYqjOnE9EuYvu6xzNQ--26">
+        <mxCell id="MlYqjOnE9EuYvu6xzNQ--30" value="+ Restore(memento: Memento): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MlYqjOnE9EuYvu6xzNQ--26">
           <mxGeometry y="86" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="MlYqjOnE9EuYvu6xzNQ--31" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1.008;entryY=-0.038;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.004;exitY=-0.115;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
