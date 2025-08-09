@@ -68,6 +68,9 @@
         <mxCell id="7SThADJdRw33NjqNuo1c-31" value="Definition&#xa;&#xa;The Observer Pattern defines a one-to-many dependency between objects so that when one object (subject) changes state, all its dependents (observers) are notified and updated automatically." style="text;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="40" y="-80" width="800" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="7SThADJdRw33NjqNuo1c-32" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Key Components&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Subject &lt;/b&gt;(&lt;b&gt;ISubject&lt;/b&gt;): Maintains a list of observers and defines methods for attaching, detaching, and notifying them.&lt;/li&gt;&lt;li&gt;&lt;b&gt;ConcreteSubject&lt;/b&gt;: Holds the state and notifies observers of changes.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Observer &lt;/b&gt;(&lt;b&gt;IObserver&lt;/b&gt;): Defines an interface for receiving updates.&lt;/li&gt;&lt;li&gt;&lt;b&gt;ConcreteObserver&lt;/b&gt;: Implements the Observer interface and reacts to state changes.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="720" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
