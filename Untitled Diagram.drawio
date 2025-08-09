@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="28.0.7">
   <diagram name="Page-1" id="4AnDUFGYBO-_3WgCWL5g">
-    <mxGraphModel dx="914" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="914" dy="1636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7SThADJdRw33NjqNuo1c-5" value="Subject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="160" height="138" as="geometry" />
+          <mxGeometry x="80" y="40" width="160" height="138" as="geometry" />
         </mxCell>
         <mxCell id="7SThADJdRw33NjqNuo1c-6" value="+ state: object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7SThADJdRw33NjqNuo1c-5">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -16,14 +16,14 @@
         <mxCell id="7SThADJdRw33NjqNuo1c-9" value="+ addObserver(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7SThADJdRw33NjqNuo1c-5">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7SThADJdRw33NjqNuo1c-10" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7SThADJdRw33NjqNuo1c-5">
+        <mxCell id="7SThADJdRw33NjqNuo1c-10" value="+ detach(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7SThADJdRw33NjqNuo1c-5">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7SThADJdRw33NjqNuo1c-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7SThADJdRw33NjqNuo1c-5">
+        <mxCell id="7SThADJdRw33NjqNuo1c-8" value="+ notifiy(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="7SThADJdRw33NjqNuo1c-5">
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="7SThADJdRw33NjqNuo1c-12" value="Observer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="80" width="160" height="60" as="geometry" />
+          <mxGeometry x="400" y="40" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7SThADJdRw33NjqNuo1c-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="7SThADJdRw33NjqNuo1c-12">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
@@ -32,15 +32,15 @@
           <mxGeometry y="34" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="7SThADJdRw33NjqNuo1c-16" value="&lt;b&gt;ConcreteSubject&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="280" width="160" height="52" as="geometry" />
+          <mxGeometry x="80" y="240" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="7SThADJdRw33NjqNuo1c-20" value="&lt;b&gt;ConcreteObserver&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="280" width="160" height="52" as="geometry" />
+          <mxGeometry x="400" y="240" width="160" height="52" as="geometry" />
         </mxCell>
         <mxCell id="7SThADJdRw33NjqNuo1c-21" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="109.5" as="sourcePoint" />
-            <mxPoint x="400" y="109.5" as="targetPoint" />
+            <mxPoint x="240" y="69.5" as="sourcePoint" />
+            <mxPoint x="400" y="69.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7SThADJdRw33NjqNuo1c-22" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="7SThADJdRw33NjqNuo1c-21">
@@ -51,16 +51,22 @@
         </mxCell>
         <mxCell id="7SThADJdRw33NjqNuo1c-26" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="7SThADJdRw33NjqNuo1c-5">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="160" y="279" as="sourcePoint" />
-            <mxPoint x="320" y="279" as="targetPoint" />
+            <mxPoint x="160" y="239" as="sourcePoint" />
+            <mxPoint x="320" y="239" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7SThADJdRw33NjqNuo1c-28" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7SThADJdRw33NjqNuo1c-20">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="479.5" y="201" as="sourcePoint" />
-            <mxPoint x="479.5" y="140" as="targetPoint" />
+            <mxPoint x="479.5" y="161" as="sourcePoint" />
+            <mxPoint x="479.5" y="100" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7SThADJdRw33NjqNuo1c-30" value="The Observer Pattern is a behavioral design pattern where an object, known as the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.&#xa;&#xa;This pattern is commonly used to implement distributed event-handling systems, such as user interfaces, event listeners, or data-binding mechanisms." style="text;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-210" width="810" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7SThADJdRw33NjqNuo1c-31" value="Definition&#xa;&#xa;The Observer Pattern defines a one-to-many dependency between objects so that when one object (subject) changes state, all its dependents (observers) are notified and updated automatically." style="text;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-80" width="800" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
