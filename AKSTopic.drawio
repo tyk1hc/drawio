@@ -595,6 +595,9 @@
             <mxRectangle width="480" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-234" value="az aks show --resource-group stardog-dev-rg --name stardog-dev-aks --query &quot;oidcIssuerProfile.enabled&quot;&#xa;kubectl get deployments --all-namespaces&#xa;kubectl get secretstore,clustersecretstore --all-namespaces&#xa;kubectl get secret &lt;secret-name&gt; -n &lt;namespace&gt; -o yaml" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1480" width="960" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
