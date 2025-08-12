@@ -585,12 +585,12 @@
         <mxCell id="mOrBXm5TbnMwmnYcqCQa-231" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-221">
           <mxGeometry y="120" width="960" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mOrBXm5TbnMwmnYcqCQa-232" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-231">
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-232" value="external-secret-operator-external-secrets-webhook&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-231">
           <mxGeometry width="480" height="40" as="geometry">
             <mxRectangle width="480" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mOrBXm5TbnMwmnYcqCQa-233" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-231">
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-233" value="Validates and mutates ExternalSecret and other CRDs. Ensures YAMLs are well-formed and comply with rules." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-231">
           <mxGeometry x="480" width="480" height="40" as="geometry">
             <mxRectangle width="480" height="40" as="alternateBounds" />
           </mxGeometry>
