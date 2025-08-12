@@ -540,6 +540,61 @@
         <mxCell id="mOrBXm5TbnMwmnYcqCQa-220" value="&lt;div&gt;Step 7: Verify It works&lt;/div&gt;&lt;div&gt;Check the synced Kubernetes secret:&lt;/div&gt;&lt;div&gt;kubectl get secret my-app-secret-k8s -n default -o yaml&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Step 8: Use the Secret in a Pod&lt;/div&gt;&lt;div&gt;Example pod using secretRef:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;env:&lt;br&gt;&amp;nbsp; - name: DB_USERNAME&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; valueFrom:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; secretKeyRef:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; name: my-app-secret-k8s&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; key: username&lt;br&gt;&amp;nbsp; - name: DB_PASSWORD&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; valueFrom:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; secretKeyRef:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; name: my-app-secret-k8s&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; key: password&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="1000" width="560" height="280" as="geometry" />
         </mxCell>
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-221" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1280" width="960" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-222" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-221">
+          <mxGeometry width="960" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-223" value="Pod Name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-222">
+          <mxGeometry width="480" height="40" as="geometry">
+            <mxRectangle width="480" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-224" value="Purpose" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-222">
+          <mxGeometry x="480" width="480" height="40" as="geometry">
+            <mxRectangle width="480" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-225" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-221">
+          <mxGeometry y="40" width="960" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-226" value="external-secret-operator-external-secrets" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-225">
+          <mxGeometry width="480" height="40" as="geometry">
+            <mxRectangle width="480" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-227" value="Core ESO controller -- the main operator that watches for ExternalSecret, SecretStore, etc., and pulls data from Azure Key Vault to Kubernetes." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-225">
+          <mxGeometry x="480" width="480" height="40" as="geometry">
+            <mxRectangle width="480" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-228" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-221">
+          <mxGeometry y="80" width="960" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-229" value="external-secret-operator-external-secrets-cert-controller" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-228">
+          <mxGeometry width="480" height="40" as="geometry">
+            <mxRectangle width="480" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-230" value="Manages webhook certificates for secure communication between the webhook and Kubernetes API." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-228">
+          <mxGeometry x="480" width="480" height="40" as="geometry">
+            <mxRectangle width="480" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-231" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-221">
+          <mxGeometry y="120" width="960" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-232" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-231">
+          <mxGeometry width="480" height="40" as="geometry">
+            <mxRectangle width="480" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mOrBXm5TbnMwmnYcqCQa-233" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="mOrBXm5TbnMwmnYcqCQa-231">
+          <mxGeometry x="480" width="480" height="40" as="geometry">
+            <mxRectangle width="480" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
