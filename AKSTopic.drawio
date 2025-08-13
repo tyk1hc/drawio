@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="28.0.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.9">
   <diagram name="Page-1" id="P_0fEiLbS9mn6q6-8X8e">
-    <mxGraphModel dx="2116" dy="3044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1884" dy="4970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -595,324 +595,330 @@
         <mxCell id="mOrBXm5TbnMwmnYcqCQa-234" value="az aks show --resource-group stardog-dev-rg --name stardog-dev-aks --query &quot;oidcIssuerProfile.enabled&quot;&#xa;kubectl get deployments --all-namespaces&#xa;kubectl get secretstore,clustersecretstore --all-namespaces&#xa;kubectl get secret &lt;secret-name&gt; -n &lt;namespace&gt; -o yaml" style="text;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="200" y="1480" width="960" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-2" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-2" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
           <mxGeometry x="960" y="-1280" width="920" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-2">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-2" vertex="1">
           <mxGeometry width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Feature&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-3">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Feature&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-3" vertex="1">
           <mxGeometry width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Managed Idenity&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-3">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Managed Idenity&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-3" vertex="1">
           <mxGeometry x="307" width="306" height="40" as="geometry">
             <mxRectangle width="306" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Workload Identity (AKS)&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-3">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Workload Identity (AKS)&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-3" vertex="1">
           <mxGeometry x="613" width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-2">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-2" vertex="1">
           <mxGeometry y="40" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-8" value="Type" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-7">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-8" value="Type" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-7" vertex="1">
           <mxGeometry width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-9" value="Azure AD Identity for Azure resources" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-7">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-9" value="Azure AD Identity for Azure resources" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-7" vertex="1">
           <mxGeometry x="307" width="306" height="40" as="geometry">
             <mxRectangle width="306" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-10" value="Federated identity from Kubernetes workload" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-7">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-10" value="Federated identity from Kubernetes workload" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-7" vertex="1">
           <mxGeometry x="613" width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-2">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-2" vertex="1">
           <mxGeometry y="80" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-12" value="Use case" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-11">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-12" value="Use case" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-11" vertex="1">
           <mxGeometry width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-13" value="VMs, App Services, AKS node pools" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-11">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-13" value="VMs, App Services, AKS node pools" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-11" vertex="1">
           <mxGeometry x="307" width="306" height="40" as="geometry">
             <mxRectangle width="306" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-14" value="Pod-level identity in AKS" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-11">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-14" value="Pod-level identity in AKS" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-11" vertex="1">
           <mxGeometry x="613" width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-2">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-2" vertex="1">
           <mxGeometry y="120" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-16" value="Authentication" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-15">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-16" value="Authentication" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-15" vertex="1">
           <mxGeometry width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-17" value="Handled by Azure SDK / IMDS" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-15">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-17" value="Handled by Azure SDK / IMDS" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-15" vertex="1">
           <mxGeometry x="307" width="306" height="40" as="geometry">
             <mxRectangle width="306" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-18" value="OIDC federated tokens" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-15">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-18" value="OIDC federated tokens" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-15" vertex="1">
           <mxGeometry x="613" width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-2">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-2" vertex="1">
           <mxGeometry y="160" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-20" value="Granularity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-19">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-20" value="Granularity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-19" vertex="1">
           <mxGeometry width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-21" value="Node-level (AKS)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-19">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-21" value="Node-level (AKS)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-19" vertex="1">
           <mxGeometry x="307" width="306" height="40" as="geometry">
             <mxRectangle width="306" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-22" value="Pod-level" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-19">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-22" value="Pod-level" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-19" vertex="1">
           <mxGeometry x="613" width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-2">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-2" vertex="1">
           <mxGeometry y="200" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-24" value="Azure SDK required?" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-23">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-24" value="Azure SDK required?" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-23" vertex="1">
           <mxGeometry width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-25" value="Yes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-23">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-25" value="Yes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-23" vertex="1">
           <mxGeometry x="307" width="306" height="40" as="geometry">
             <mxRectangle width="306" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-26" value="No (uses standard OIDC flow)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-23">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-26" value="No (uses standard OIDC flow)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-23" vertex="1">
           <mxGeometry x="613" width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-27" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-2">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-27" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-2" vertex="1">
           <mxGeometry y="240" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-28" value="GitOps/DevOps friendly?" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-27">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-28" value="GitOps/DevOps friendly?" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-27" vertex="1">
           <mxGeometry width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-29" value="Somewhat (complex to scale)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-27">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-29" value="Somewhat (complex to scale)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-27" vertex="1">
           <mxGeometry x="307" width="306" height="40" as="geometry">
             <mxRectangle width="306" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-30" value="Yes (declarative + granular)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-27">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-30" value="Yes (declarative + granular)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" parent="aLglj6Q1sflKhrZdpcTz-27" vertex="1">
           <mxGeometry x="613" width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-31" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;1. Managed Identity (MI)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;A Managed Identity is essentially a service principal managed by Azure.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Pros:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. Easy integration with Azure SDKs.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. No need to manage credentials.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. Good for Azure-native services (VMs, APP Services, Function Apps).&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;In AKS:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. Managed Identity is tied to the node pool (aka AKS MSI).&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. All pods running on a node share the same identity (unless extra setup is done).&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. Requires AAD Pod Identity (deprecated) or Workload Identity for pod-level granularity.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-31" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;1. Managed Identity (MI)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;A Managed Identity is essentially a service principal managed by Azure.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Pros:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. Easy integration with Azure SDKs.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. No need to manage credentials.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. Good for Azure-native services (VMs, APP Services, Function Apps).&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;In AKS:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. Managed Identity is tied to the node pool (aka AKS MSI).&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. All pods running on a node share the same identity (unless extra setup is done).&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. Requires AAD Pod Identity (deprecated) or Workload Identity for pod-level granularity.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="960" y="-440" width="640" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-32" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;2. Azure Workload Identity (recommended for AKS)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Azure Workload Identity uses OIDC federation between Kubernetes and Azure AD.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Pros:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. Assign identity per Pod, not per node.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. No AAD Pod Identity webhook (which had limitations and was complex.)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. Native support via OIDC -- compatible with GitOps, OpenID providers, and CI/CD.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. Secure and scalable.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;How it works:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1. AKS exposes an OIDC issuer URL.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;2. Pod uses a ServiceAccount annotated with a federated identity.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;3. Azure AD app registration trusts tokens from the OIDC issuer.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;4. The app in the Pod gets a token to access Azure resources.&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-32" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;2. Azure Workload Identity (recommended for AKS)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Azure Workload Identity uses OIDC federation between Kubernetes and Azure AD.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Pros:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. Assign identity per Pod, not per node.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. No AAD Pod Identity webhook (which had limitations and was complex.)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. Native support via OIDC -- compatible with GitOps, OpenID providers, and CI/CD.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. Secure and scalable.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;How it works:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1. AKS exposes an OIDC issuer URL.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;2. Pod uses a ServiceAccount annotated with a federated identity.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;3. Azure AD app registration trusts tokens from the OIDC issuer.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;4. The app in the Pod gets a token to access Azure resources.&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1600" y="-440" width="510" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-33" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-33" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
           <mxGeometry x="960" y="-960" width="920" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-34" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-33">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-34" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-33" vertex="1">
           <mxGeometry width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-35" value="Scenario" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-34">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-35" value="Scenario" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-34" vertex="1">
           <mxGeometry width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-36" value="Use Workload Identity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-34">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-36" value="Use Workload Identity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-34" vertex="1">
           <mxGeometry x="307" width="306" height="40" as="geometry">
             <mxRectangle width="306" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-37" value="Use Managed Identity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-34">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-37" value="Use Managed Identity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-34" vertex="1">
           <mxGeometry x="613" width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-38" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-33">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-38" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-33" vertex="1">
           <mxGeometry y="40" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-39" value="AKS + Pod-level Azure Access (Key Vault Storage)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-38">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-39" value="AKS + Pod-level Azure Access (Key Vault Storage)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-38" vertex="1">
           <mxGeometry width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-40" value="Yes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-38">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-40" value="Yes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-38" vertex="1">
           <mxGeometry x="307" width="306" height="40" as="geometry">
             <mxRectangle width="306" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-41" value="No (unless old AAD Pod Identity)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-38">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-41" value="No (unless old AAD Pod Identity)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-38" vertex="1">
           <mxGeometry x="613" width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-42" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-33">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-42" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-33" vertex="1">
           <mxGeometry y="80" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-43" value="VM or App Service accessing Azure" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-42">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-43" value="VM or App Service accessing Azure" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-42" vertex="1">
           <mxGeometry width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-44" value="No" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-42">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-44" value="No" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-42" vertex="1">
           <mxGeometry x="307" width="306" height="40" as="geometry">
             <mxRectangle width="306" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-45" value="Yes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-42">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-45" value="Yes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-42" vertex="1">
           <mxGeometry x="613" width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-46" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-33">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-46" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-33" vertex="1">
           <mxGeometry y="120" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-47" value="You want GitOps-friendly, declarative setup" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-46">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-47" value="You want GitOps-friendly, declarative setup" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-46" vertex="1">
           <mxGeometry width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-48" value="Yes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-46">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-48" value="Yes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-46" vertex="1">
           <mxGeometry x="307" width="306" height="40" as="geometry">
             <mxRectangle width="306" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-49" value="Managed Identity needs extra scripts" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-46">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-49" value="Managed Identity needs extra scripts" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-46" vertex="1">
           <mxGeometry x="613" width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-50" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-33">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-50" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-33" vertex="1">
           <mxGeometry y="160" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-51" value="Accessing Azure APIs from a specific pod only" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-50">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-51" value="Accessing Azure APIs from a specific pod only" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-50" vertex="1">
           <mxGeometry width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-52" value="Yes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-50">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-52" value="Yes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-50" vertex="1">
           <mxGeometry x="307" width="306" height="40" as="geometry">
             <mxRectangle width="306" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-53" value="No" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-50">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-53" value="No" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-50" vertex="1">
           <mxGeometry x="613" width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-54" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-33">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-54" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-33" vertex="1">
           <mxGeometry y="200" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-55" value="Existing apps using Azure SDK on VMs or App Services" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-54">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-55" value="Existing apps using Azure SDK on VMs or App Services" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-54" vertex="1">
           <mxGeometry width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-56" value="No" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-54">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-56" value="No" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-54" vertex="1">
           <mxGeometry x="307" width="306" height="40" as="geometry">
             <mxRectangle width="306" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-57" value="Yes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-54">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-57" value="Yes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-54" vertex="1">
           <mxGeometry x="613" width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-58" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-33">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-58" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-33" vertex="1">
           <mxGeometry y="240" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-59" value="High-security workloads (least priviledge per pod)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-58">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-59" value="High-security workloads (least priviledge per pod)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-58" vertex="1">
           <mxGeometry width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-60" value="Yes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-58">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-60" value="Yes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-58" vertex="1">
           <mxGeometry x="307" width="306" height="40" as="geometry">
             <mxRectangle width="306" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-61" value="Not Granular enough" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-58">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-61" value="Not Granular enough" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-58" vertex="1">
           <mxGeometry x="613" width="307" height="40" as="geometry">
             <mxRectangle width="307" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-62" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-62" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
           <mxGeometry x="960" y="-640" width="920" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-63" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-62">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-63" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-62" vertex="1">
           <mxGeometry width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-64" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Environment&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-63">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-64" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Environment&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-63" vertex="1">
           <mxGeometry width="460" height="40" as="geometry">
             <mxRectangle width="460" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-65" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Best Identity Option&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-63">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-65" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Best Identity Option&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-63" vertex="1">
           <mxGeometry x="460" width="460" height="40" as="geometry">
             <mxRectangle width="460" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-66" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-62">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-66" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-62" vertex="1">
           <mxGeometry y="40" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-67" value="AKS (modern setup)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-66">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-67" value="AKS (modern setup)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-66" vertex="1">
           <mxGeometry width="460" height="40" as="geometry">
             <mxRectangle width="460" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-68" value="Workload Identity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-66">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-68" value="Workload Identity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-66" vertex="1">
           <mxGeometry x="460" width="460" height="40" as="geometry">
             <mxRectangle width="460" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-69" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-62">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-69" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-62" vertex="1">
           <mxGeometry y="80" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-70" value="VM/App Services" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-69">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-70" value="VM/App Services" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-69" vertex="1">
           <mxGeometry width="460" height="40" as="geometry">
             <mxRectangle width="460" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-71" value="Managed Identity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-69">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-71" value="Managed Identity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-69" vertex="1">
           <mxGeometry x="460" width="460" height="40" as="geometry">
             <mxRectangle width="460" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-62">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-72" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aLglj6Q1sflKhrZdpcTz-62" vertex="1">
           <mxGeometry y="120" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-73" value="GitOps-enabled" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-72">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-73" value="GitOps-enabled" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-72" vertex="1">
           <mxGeometry width="460" height="40" as="geometry">
             <mxRectangle width="460" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLglj6Q1sflKhrZdpcTz-74" value="Workload Identity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="aLglj6Q1sflKhrZdpcTz-72">
+        <mxCell id="aLglj6Q1sflKhrZdpcTz-74" value="Workload Identity" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" parent="aLglj6Q1sflKhrZdpcTz-72" vertex="1">
           <mxGeometry x="460" width="460" height="40" as="geometry">
             <mxRectangle width="460" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="j6q74WZDU4BcMHi6QrTX-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;1. Pod YAML with Labels &amp;amp; Annotations&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;apiVersion: v1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;kind: Pod&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;metadata:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; name: my-simple-pod&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; labels:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; app: myapp&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; tier: backend&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; env: dev&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; annotations:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; description: &quot;A simple nginx pod for dev environment&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; created-by: &quot;dev-team&quot;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;spec:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; containers:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; - name: my-container&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; image: nginx:latest&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ports:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - containerPort: 80&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Labels&lt;/b&gt;:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. app: Groups components by application name.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. tier: Helps distinguish frontend/backend/db layers.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;. env: For environment-specific grouping (e.g., dev/staging/prod)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Annotations&lt;/b&gt;:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;.Not used by selectors, but useful for:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;. Documentation&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;. Tools (e.g., monitoring, automation)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;. Metadata tagging&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="-3600" width="400" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="j6q74WZDU4BcMHi6QrTX-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;2. ReplicaSet YAML with Labels &amp;amp; Annotation&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;apiVersion: apps/v1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;kind: ReplicaSet&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;metadata:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; name: my-replicaset&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; labels:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; app: myapp&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; tier: backend&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; annotations:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; owner: &quot;ops-team&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; purpose: &quot;Manages multiple nginx pods&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;spec:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; replicas: 3&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; selector:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; matchLabels:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; app: myapp&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; tier: backend&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; template:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; metadata:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; labels:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; app: myapp&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; tier: backend&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; annotations:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pod-role: &quot;web-handler&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; spec:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; containers:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - name: my-container&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; image: nginx:latest&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ports:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - containerPort: 80&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;ReplicaSet&#39;s &lt;code data-end=&quot;1712&quot; data-start=&quot;1690&quot;&gt;&lt;b&gt;selector.matchLabels&lt;/b&gt;&lt;/code&gt; must match&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;code data-end=&quot;1750&quot; data-start=&quot;1724&quot;&gt;&lt;b&gt;template.metadata.labels&lt;/b&gt;&lt;/code&gt; to manage its Pods.&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="-3590" width="400" height="600" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
