@@ -1,80 +1,116 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.1.0">
   <diagram name="Page-1" id="RwQK2g2WivvjtjlnBLOp">
-    <mxGraphModel dx="1884" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1880" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size:18.0pt;line-height:115%&quot;&gt;What is Software Architecture?&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size:18.0pt;line-height:115%&quot;&gt;What is Software Architecture?&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-80" y="40" width="920" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-3" value="&lt;br&gt;&lt;div&gt;&lt;span style=&quot;line-height: 115%; font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;Definition: The structure of a system, including its components and relationships.&lt;/li&gt;&lt;li&gt;Why It Matters: Architecture impacts scalability, performance, and maintainability.&lt;/li&gt;&lt;li&gt;Important in System Design &amp;amp; Key Design Considerations.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Scalability: Ability to handle increased data or traffic.&lt;/li&gt;&lt;li&gt;Maintainability: How easily the system can be updated or modified.&lt;/li&gt;&lt;li&gt;Performance: Efficiency and responsiveness under load.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Keep in mind, the architectural choices you make directly influence system behavior.&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-3" value="&lt;br&gt;&lt;div&gt;&lt;span style=&quot;line-height: 115%; font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li&gt;Definition: The structure of a system, including its components and relationships.&lt;/li&gt;&lt;li&gt;Why It Matters: Architecture impacts scalability, performance, and maintainability.&lt;/li&gt;&lt;li&gt;Important in System Design &amp;amp; Key Design Considerations.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Scalability: Ability to handle increased data or traffic.&lt;/li&gt;&lt;li&gt;Maintainability: How easily the system can be updated or modified.&lt;/li&gt;&lt;li&gt;Performance: Efficiency and responsiveness under load.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Keep in mind, the architectural choices you make directly influence system behavior.&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-80" y="80" width="880" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-4" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-4" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-120" y="400" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Web Application&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Web Application&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="400" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-80" y="440" as="sourcePoint" />
             <mxPoint x="-10" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-7" value="Caching Load&amp;nbsp;&lt;div&gt;Balancer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-7" value="Caching Load&amp;nbsp;&lt;div&gt;Balancer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="420" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="439.5" as="sourcePoint" />
             <mxPoint x="200" y="439.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-9" value="Slave&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DB1&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-9" value="Slave&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DB1&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="360" y="280" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-10" value="Slave&amp;nbsp;&lt;div&gt;DB2&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-10" value="Slave&amp;nbsp;&lt;div&gt;DB2&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="360" y="520" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="410" as="sourcePoint" />
             <mxPoint x="360" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="470" as="sourcePoint" />
             <mxPoint x="360" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-13" value="Master DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-13" value="Master DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="480" y="400" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-14" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 4;" edge="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-14" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="400" as="sourcePoint" />
             <mxPoint x="430" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-15" value="&lt;font&gt;Replication&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-15" value="&lt;font&gt;Replication&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="460" y="340" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-16" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 4;" edge="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-16" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="475" y="490" as="sourcePoint" />
             <mxPoint x="425" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-17" value="ETL Process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-17" value="ETL Process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="640" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CFSbIhuwtXft6gbCC_ix-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CFSbIhuwtXft6gbCC_ix-17" target="CFSbIhuwtXft6gbCC_ix-13">
+        <mxCell id="CFSbIhuwtXft6gbCC_ix-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CFSbIhuwtXft6gbCC_ix-17" target="CFSbIhuwtXft6gbCC_ix-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="540" as="sourcePoint" />
             <mxPoint x="490" y="605" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="I4dAItv38hqPVrRyuluG-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Monolithic Architecture&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="840" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I4dAItv38hqPVrRyuluG-2" value="&lt;ul&gt;&lt;li&gt;&lt;font&gt;Definition: A single unified system where all components are tightly coupled and work as a single unit.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Pros:&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;font&gt;Simple to develop and deploy.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Easier to manage in smaller applications.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;font&gt;Cons:&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;font&gt;Hard to scale&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Difficult to maintain as the codebase grows.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;High risk of failure: A single bug can take down the entire system.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;font&gt;Use Cases: Small-scale applications, startups, simple CRUD-based apps.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="880" width="680" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="I4dAItv38hqPVrRyuluG-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="760" width="240" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="I4dAItv38hqPVrRyuluG-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Database&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="545" y="1080" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="I4dAItv38hqPVrRyuluG-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="770" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="I4dAItv38hqPVrRyuluG-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" target="I4dAItv38hqPVrRyuluG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="1020" as="sourcePoint" />
+            <mxPoint x="650" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I4dAItv38hqPVrRyuluG-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;UI&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="794" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4dAItv38hqPVrRyuluG-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Bussiness Logic&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="864" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4dAItv38hqPVrRyuluG-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Data Access Layer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="934" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4dAItv38hqPVrRyuluG-10" value="Layered (N-Tier) Architecture" style="text;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="1280" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I4dAItv38hqPVrRyuluG-11" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Definition: A system split into multiple layers (e.g., Presentation, Business Logic, Data) to separate concerns.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Pros:&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Clear separation of concerns.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Easier to scale and maintain compared to monolithic.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Cons:&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Performance overhead due to layers.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;May result in tight coupling between certain layers.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Use Cases: Enterprise applications, CRM systems, Banking applications.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="1320" width="720" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
