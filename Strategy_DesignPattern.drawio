@@ -76,6 +76,77 @@
         <mxCell id="i2L2ZSffvxkab_22eNfT-22" value="When to Use Strategy Pattern&#xa;&#xa;-When you have many related classes that differ only in their behavior.&#xa;-When you need different variants of an algorithm.&#xa;-When an algorithm uses data that clients shouldn&#39;t know about.&#xa;-To avoid using conditional statements to choose behavior." style="text;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="40" y="1040" width="760" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Domain Use Case&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1170" width="760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-24" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1200" width="760" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="i2L2ZSffvxkab_22eNfT-24">
+          <mxGeometry width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;UI Themes&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="i2L2ZSffvxkab_22eNfT-25">
+          <mxGeometry width="380" height="40" as="geometry">
+            <mxRectangle width="380" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Switching between light, dark, and high-contrast themes.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="i2L2ZSffvxkab_22eNfT-25">
+          <mxGeometry x="380" width="380" height="40" as="geometry">
+            <mxRectangle width="380" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="i2L2ZSffvxkab_22eNfT-24">
+          <mxGeometry y="40" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-29" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Sorting Algorithms&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="i2L2ZSffvxkab_22eNfT-28">
+          <mxGeometry width="380" height="40" as="geometry">
+            <mxRectangle width="380" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-30" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Plug in different sorting methods (QuickSort, MergeSort).&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="i2L2ZSffvxkab_22eNfT-28">
+          <mxGeometry x="380" width="380" height="40" as="geometry">
+            <mxRectangle width="380" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="i2L2ZSffvxkab_22eNfT-24">
+          <mxGeometry y="80" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-32" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Authentication&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="i2L2ZSffvxkab_22eNfT-31">
+          <mxGeometry width="380" height="40" as="geometry">
+            <mxRectangle width="380" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-33" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Choose between OAuth, JWT, or SSO strategies.&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="i2L2ZSffvxkab_22eNfT-31">
+          <mxGeometry x="380" width="380" height="40" as="geometry">
+            <mxRectangle width="380" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-34" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="i2L2ZSffvxkab_22eNfT-24">
+          <mxGeometry y="120" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-35" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Compression&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="i2L2ZSffvxkab_22eNfT-34">
+          <mxGeometry width="380" height="40" as="geometry">
+            <mxRectangle width="380" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-36" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Different file compression techniques (ZIP, RAR, TAR).&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="i2L2ZSffvxkab_22eNfT-34">
+          <mxGeometry x="380" width="380" height="40" as="geometry">
+            <mxRectangle width="380" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-37" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="i2L2ZSffvxkab_22eNfT-24">
+          <mxGeometry y="160" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-38" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Game Development&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="i2L2ZSffvxkab_22eNfT-37">
+          <mxGeometry width="380" height="40" as="geometry">
+            <mxRectangle width="380" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-39" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Varying character movement behavior (e.g., flying, walking, swimming).&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="i2L2ZSffvxkab_22eNfT-37">
+          <mxGeometry x="380" width="380" height="40" as="geometry">
+            <mxRectangle width="380" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
