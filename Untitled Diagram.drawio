@@ -277,6 +277,15 @@
         <mxCell id="I4dAItv38hqPVrRyuluG-59" value="&lt;b&gt;A + B&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="670" y="2190" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="I4dAItv38hqPVrRyuluG-60" value="Factors Influencing Architecture Selection&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Business Needs: What problem are we solving? What is the business goal?&lt;/li&gt;&lt;li&gt;Scalability: How much traffic and data should the system handle?&lt;/li&gt;&lt;li&gt;Performance: How fast should the system respond to users?&lt;/li&gt;&lt;li&gt;Maintainability: How easy is it to make updates, fix bugs, and evolve the system over time?&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="2370" width="640" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="I4dAItv38hqPVrRyuluG-61" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-720" y="2520" as="sourcePoint" />
+            <mxPoint x="1602.400146484375" y="2520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
