@@ -64,6 +64,15 @@
             <mxPoint x="560" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-19" value="What is the Strategy Design Pattern?&#xa;&#xa;The Strategy Pattern is a behavioral design pattern that enables selecting an algorithm&#39;s behavior at runtime.&#xa;&#xa;Intent:&#xa;Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from the clients that use it." style="text;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="760" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-20" value="Real-World Analogy &#xa;Imagine a navigation app like Google Maps. It can calculate routes based on different strategies:&#xa;&#xa;- Fastest route &#xa;- Shortest distance &#xa;- Avoid tolls &#xa;- Scenic route&#xa;&#xa;Each of these routing algorithms is a strategy, and the app allows the user to switch between them dynamically." style="text;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="800" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="i2L2ZSffvxkab_22eNfT-21" value="Explanation of Components &#xa;.Context&#xa;    . Maintains a reference to a Strategy object.&#xa;    . Allows changing the Strategy at runtime.&#xa;&#xa;.Strategy (Interface or Abstract Class):&#xa;    . Declares a method that all supported algorithms will implement.&#xa;&#xa;.ConcreteStrategyA/B/...&#xa;    . Implement different variations of the algorithm." style="text;whiteSpace=wrap;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="40" y="800" width="805" height="210" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
