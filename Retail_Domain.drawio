@@ -211,6 +211,9 @@
             <mxRectangle width="400" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="WBCkLrRlEnQxEytkG0Gb-51" value="&lt;div&gt;What Is a Retail Data Model Used For ?&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Inventory management: Track what products are in stock, low, or overstocked.&lt;/li&gt;&lt;li&gt;Pricing: Manage dynamic pricing, discounts, and seasonal pricing.&lt;/li&gt;&lt;li&gt;Sales analytics: Understand what&#39;s selling well, where, and when.&lt;/li&gt;&lt;li&gt;Customer insights: Segment customers by behavior or demographics.&lt;/li&gt;&lt;li&gt;Product recommendation engines: Based on pruchase history or trends.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1040" width="800" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
