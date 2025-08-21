@@ -227,46 +227,58 @@
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="i7XMFBIdNLqyE7T31VC0-5" value="Customer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="1520" width="320" height="346" as="geometry" />
+          <mxGeometry x="-120" y="1520" width="240" height="450" as="geometry" />
         </mxCell>
         <mxCell id="i7XMFBIdNLqyE7T31VC0-15" value="+ CustomerID: UUID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
-          <mxGeometry y="26" width="320" height="26" as="geometry" />
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i7XMFBIdNLqyE7T31VC0-9" value="+ Name: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
-          <mxGeometry y="52" width="320" height="26" as="geometry" />
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i7XMFBIdNLqyE7T31VC0-6" value="+ Email: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
-          <mxGeometry y="78" width="320" height="26" as="geometry" />
+          <mxGeometry y="78" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i7XMFBIdNLqyE7T31VC0-16" value="+ Phone: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
-          <mxGeometry y="104" width="320" height="26" as="geometry" />
+          <mxGeometry y="104" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i7XMFBIdNLqyE7T31VC0-17" value="+ DateOfBirth: Datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
-          <mxGeometry y="130" width="320" height="26" as="geometry" />
+          <mxGeometry y="130" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i7XMFBIdNLqyE7T31VC0-18" value="+ Gender: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
-          <mxGeometry y="156" width="320" height="26" as="geometry" />
+          <mxGeometry y="156" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i7XMFBIdNLqyE7T31VC0-20" value="+ BillingAddress: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
-          <mxGeometry y="182" width="320" height="26" as="geometry" />
+          <mxGeometry y="182" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i7XMFBIdNLqyE7T31VC0-19" value="+ ShippingAddress: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
-          <mxGeometry y="208" width="320" height="26" as="geometry" />
+          <mxGeometry y="208" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i7XMFBIdNLqyE7T31VC0-22" value="+ RegistrationDate: Datetime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
-          <mxGeometry y="234" width="320" height="26" as="geometry" />
+          <mxGeometry y="234" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="i7XMFBIdNLqyE7T31VC0-21" value="+ Email: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
-          <mxGeometry y="260" width="320" height="26" as="geometry" />
+        <mxCell id="i7XMFBIdNLqyE7T31VC0-21" value="+ LoyaltyPoints: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
+          <mxGeometry y="260" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="i7XMFBIdNLqyE7T31VC0-23" value="+ Email: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
-          <mxGeometry y="286" width="320" height="26" as="geometry" />
+        <mxCell id="i7XMFBIdNLqyE7T31VC0-23" value="+ preferredLanguage: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
+          <mxGeometry y="286" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="i7XMFBIdNLqyE7T31VC0-24" value="+ Email: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
-          <mxGeometry y="312" width="320" height="26" as="geometry" />
+        <mxCell id="i7XMFBIdNLqyE7T31VC0-24" value="+ AccountStatus: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
+          <mxGeometry y="312" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i7XMFBIdNLqyE7T31VC0-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
-          <mxGeometry y="338" width="320" height="8" as="geometry" />
+          <mxGeometry y="338" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="i7XMFBIdNLqyE7T31VC0-29" value="+ PlacesOrder(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
+          <mxGeometry y="346" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i7XMFBIdNLqyE7T31VC0-30" value="+ MakesPayment(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
+          <mxGeometry y="372" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i7XMFBIdNLqyE7T31VC0-31" value="+ HasReview(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
+          <mxGeometry y="398" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i7XMFBIdNLqyE7T31VC0-32" value="+ HasCart(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i7XMFBIdNLqyE7T31VC0-5">
+          <mxGeometry y="424" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i7XMFBIdNLqyE7T31VC0-10" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Full Retail Data Model Components&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Customer Management&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt; Customers&lt;/li&gt;&lt;li&gt;Addresses&lt;/li&gt;&lt;li&gt;Contact Details&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;2. Product &amp;amp; Inventory&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Products &lt;br&gt;&lt;/li&gt;&lt;li&gt;Categories &lt;br&gt;&lt;/li&gt;&lt;li&gt;Inventory Levels&lt;/li&gt;&lt;li&gt;Warehouses or Stock Locations&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;3. Sales (Orders)&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Orders &lt;br&gt;&lt;/li&gt;&lt;li&gt;Order Items &lt;br&gt;&lt;/li&gt;&lt;li&gt;Payments&lt;/li&gt;&lt;li&gt;Shipping / Delivery&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;4. Purchasing (Procurement)&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Suppliers &lt;br&gt;&lt;/li&gt;&lt;li&gt;Purchase Orders &lt;br&gt;&lt;/li&gt;&lt;li&gt;Purchase Order Items&lt;/li&gt;&lt;li&gt;Goods Receipts &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;5. Accounting / Finance &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Invoices &lt;br&gt;&lt;/li&gt;&lt;li&gt;Payments&lt;/li&gt;&lt;li&gt;Returns / Refunds&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;6. Staff / Admin&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Users &lt;br&gt;&lt;/li&gt;&lt;li&gt;Roles &amp;amp; Permissions&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;7. Reports / Analytics&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Sales reports&lt;/li&gt;&lt;li&gt;Inventory levels &lt;br&gt;&lt;/li&gt;&lt;li&gt;Purchase history&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-520" y="640" width="520" height="760" as="geometry" />
