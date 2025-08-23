@@ -92,25 +92,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IFPszP2dh0mQ25aJr4DG-26" value="Client" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="80" y="560" width="120" height="40" as="geometry" />
+          <mxGeometry x="80" y="480" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IFPszP2dh0mQ25aJr4DG-27" value="Concrete Command" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="320" y="560" width="120" height="40" as="geometry" />
+          <mxGeometry x="80" y="560" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IFPszP2dh0mQ25aJr4DG-28" value="Receiver" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="560" y="560" width="120" height="40" as="geometry" />
+          <mxGeometry x="80" y="640" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IFPszP2dh0mQ25aJr4DG-30" value="&lt;h2 data-start=&quot;1988&quot; data-end=&quot;2027&quot;&gt;Real-Life Analogy: Remote Control&lt;/h2&gt;&lt;ul data-start=&quot;2029&quot; data-end=&quot;2291&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;strong style=&quot;&quot; data-end=&quot;2042&quot; data-start=&quot;2031&quot;&gt;Command&lt;/strong&gt;: Remote button (e.g., PowerButton)&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;strong data-end=&quot;2099&quot; data-start=&quot;2080&quot;&gt;ConcreteCommand&lt;/strong&gt;: PowerOnCommand&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;strong data-end=&quot;2130&quot; data-start=&quot;2118&quot;&gt;Receiver&lt;/strong&gt;: TV (the object that performs the real operation)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;strong data-end=&quot;2194&quot; data-start=&quot;2183&quot;&gt;Invoker&lt;/strong&gt;: RemoteControl (triggers the button)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;strong style=&quot;&quot; data-end=&quot;2244&quot; data-start=&quot;2234&quot;&gt;Client&lt;/strong&gt;: User who sets up the remote to control the TV&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="760" width="760" height="160" as="geometry" />
         </mxCell>
         <mxCell id="IFPszP2dh0mQ25aJr4DG-31" value="Invoker" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="80" y="680" width="120" height="40" as="geometry" />
+          <mxGeometry x="80" y="720" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IFPszP2dh0mQ25aJr4DG-32" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;When to Use the Command Pattern&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;You want to &lt;b&gt;&lt;span style=&quot;&quot; data-end=&quot;3435&quot; data-start=&quot;3411&quot;&gt;parameterize objects&lt;/span&gt; &lt;/b&gt;with operations (e.g., menu systems).&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;You need to &lt;strong data-end=&quot;3506&quot; data-start=&quot;3488&quot;&gt;queue requests&lt;/strong&gt;, or &lt;strong data-end=&quot;3518&quot; data-start=&quot;3511&quot;&gt;log&lt;/strong&gt; them for auditing.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;You want to &lt;strong data-end=&quot;3575&quot; data-start=&quot;3552&quot;&gt;implement undo/redo&lt;/strong&gt; functionality.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;You want to &lt;strong data-end=&quot;3617&quot; data-start=&quot;3605&quot;&gt;decouple&lt;/strong&gt; the sender (Invoker) from the receiver.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="960" width="760" height="120" as="geometry" />
         </mxCell>
         <mxCell id="IFPszP2dh0mQ25aJr4DG-34" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Benefits&lt;/b&gt;&lt;br style=&quot;padding: 0px; margin: 0px; font-size: 14px;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Loose coupling between &lt;b&gt;Invoker &lt;/b&gt;and &lt;b&gt;Receiver&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Easy to &lt;b&gt;add new commands&lt;/b&gt; without changing existing code&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Supports &lt;b&gt;undo/redo&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Commands can be &lt;b&gt;stored, serialized, or queued&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="1140" width="760" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IFPszP2dh0mQ25aJr4DG-35" value="Create Command" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="490" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IFPszP2dh0mQ25aJr4DG-36" value="Execute() calls action()" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="570" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IFPszP2dh0mQ25aJr4DG-37" value="Action()&amp;nbsp; Method()" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="650" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IFPszP2dh0mQ25aJr4DG-38" value="Calls command.execute()" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="730" width="520" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
