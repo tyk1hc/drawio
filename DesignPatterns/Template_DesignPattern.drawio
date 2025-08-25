@@ -73,6 +73,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="OgLbBTEozjfbiL7jAVwz-22" value="&lt;ul&gt;&lt;li&gt;Abstract Class defines the template method and provides base/default behavior.&lt;/li&gt;&lt;li&gt;Concrete class implements the customizable parts.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OgLbBTEozjfbiL7jAVwz-23" value="When to Use Template Method&lt;div&gt;Use it when:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;You have multiple classes with similar algorithms but some steps vary.&lt;/li&gt;&lt;li&gt;You want to avoid code duplication and enforce a specific process order.&lt;/li&gt;&lt;li&gt;You want to control the algorithm&#39;s structure but allow flexibility in implementation.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="800" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
