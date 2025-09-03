@@ -712,7 +712,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-43" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-41">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-43" value="Person’s first name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-41">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -725,7 +725,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-46" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-44">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-46" value="Person’s last name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-44">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -738,7 +738,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-49" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-47">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-49" value="Given name (often same as firstName)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-47">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -751,7 +751,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-52" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-50">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-52" value="Family name (often same as lastName)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-50">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -764,7 +764,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-55" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-53">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-55" value="A short informal name (nickname)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-53">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -777,7 +777,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-58" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-56">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-58" value="Title (Mr., Mrs., Dr., etc.)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-56">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -790,7 +790,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-61" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-59">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-61" value="Person’s gender" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-59">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -803,7 +803,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-64" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-62">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-64" value="Image depicting the person" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-62">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -816,7 +816,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-67" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-65">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-67" value="An image or depiction of the person" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-65">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -829,7 +829,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-70" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-68">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-70" value="Inverse of foaf:depiction" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-68">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -842,7 +842,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-73" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-71">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-73" value="Links to other foaf:Person instances known by this one" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-71">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -855,7 +855,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-76" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-74">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-76" value="Person’s age (as a datatype property)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-74">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -868,7 +868,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-79" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-77">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-79" value="Birthdate (non-standard format, usually MM-DD)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-77">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -881,7 +881,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-82" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-80">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-82" value="Homepage of a school the person attended" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-80">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -894,7 +894,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-85" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-83">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-85" value="Homepage of a workplace" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-83">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -907,7 +907,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-88" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-86">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-88" value="Page describing work info" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-86">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -920,7 +920,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-91" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-89">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-91" value="A topic the person is interested in" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-89">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -933,7 +933,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-94" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-92">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-94" value="Myers-Briggs personality type (e.g., INFP, ESTJ)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-92">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -946,7 +946,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-97" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-95">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-97" value="A project the person is working on" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-95">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -959,7 +959,7 @@
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Ta0aCsaJWy1d612Isen-100" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-98">
+        <mxCell id="-Ta0aCsaJWy1d612Isen-100" value="A project the person worked on in the past" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="-Ta0aCsaJWy1d612Isen-98">
           <mxGeometry x="280" width="520" height="40" as="geometry">
             <mxRectangle width="520" height="40" as="alternateBounds" />
           </mxGeometry>
