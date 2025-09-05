@@ -4,6 +4,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZMUBihReWyr_sTy7ZRpu-1" value="Given a string str, create a function that returns the first repeating character (the first character that we have seen before). If such a character doesn&#39;t exist, return the null character &#39;\0&#39;." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMUBihReWyr_sTy7ZRpu-2" value="Text" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="680" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
