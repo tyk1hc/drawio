@@ -1752,6 +1752,57 @@
         <mxCell id="qC6EbbmMjtv_qYYHKlpB-119" value="Email Batch Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1610" y="7440" width="240" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-120" value="Amazon Linux 2 AMI (t2.medium)" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1650" y="7640" width="330" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-121" value="ASP.Net Core 3.1 MVC Docker Container" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1630" y="7680" width="290" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-122" value="Apache" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1610" y="7730" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-123" value="ASP.Net Core 3.1 MVC" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1610" y="7790" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-124" value="Core CLR" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1610" y="7850" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-125" value=".Net Native Runtime" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1610" y="7910" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-126" value="Amazon Linux 2 AMI (t2.medium)" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="7640" width="330" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-127" value="ASP.Net Core 3.1 Web API&lt;div&gt;MVC Docker Container&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1270" y="7680" width="290" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-128" value="Apache" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1250" y="7730" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-129" value="ASP.Net Core 3.1 MVC" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1250" y="7790" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-130" value="Core CLR" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1250" y="7850" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-131" value=".Net Native Runtime" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1250" y="7910" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-132" value="Amazon Linux 2 AMI (t2.medium)" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="7640" width="330" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-133" value="Work Service Docker Container" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="7680" width="290" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-134" value=".Net Core Worker Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="7750" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-135" value="Core CLR" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="7810" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qC6EbbmMjtv_qYYHKlpB-136" value=".Net Native Runtime" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="7870" width="240" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
