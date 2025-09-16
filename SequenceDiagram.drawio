@@ -126,13 +126,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-5" value="Role / Purpose" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-2">
-          <mxGeometry x="480" width="760" height="50" as="geometry">
-            <mxRectangle width="760" height="50" as="alternateBounds" />
+          <mxGeometry x="480" width="570" height="50" as="geometry">
+            <mxRectangle width="570" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-6" value="When to Use" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-2">
-          <mxGeometry x="1240" width="400" height="50" as="geometry">
-            <mxRectangle width="400" height="50" as="alternateBounds" />
+          <mxGeometry x="1050" width="590" height="50" as="geometry">
+            <mxRectangle width="590" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-7" value="Real World" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-2">
@@ -154,13 +154,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-11" value="Represents participants (users, systems, components, classes) that send or receive messages." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-8">
-          <mxGeometry x="480" width="760" height="40" as="geometry">
-            <mxRectangle width="760" height="40" as="alternateBounds" />
+          <mxGeometry x="480" width="570" height="40" as="geometry">
+            <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-12" value="Use to define who is involved in the interaction. Actors are often users; objects may be services, components, or classes." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-8">
-          <mxGeometry x="1240" width="400" height="40" as="geometry">
-            <mxRectangle width="400" height="40" as="alternateBounds" />
+          <mxGeometry x="1050" width="590" height="40" as="geometry">
+            <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-13" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-8">
@@ -182,13 +182,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-17" value="Shows the existence of an object or actor over time. It supports the timeline of the interaction." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-14">
-          <mxGeometry x="480" width="760" height="40" as="geometry">
-            <mxRectangle width="760" height="40" as="alternateBounds" />
+          <mxGeometry x="480" width="570" height="40" as="geometry">
+            <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-18" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-14">
-          <mxGeometry x="1240" width="400" height="40" as="geometry">
-            <mxRectangle width="400" height="40" as="alternateBounds" />
+          <mxGeometry x="1050" width="590" height="40" as="geometry">
+            <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-19" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-14">
@@ -210,13 +210,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-23" value="Represents a call/request where the sender waits for the receiver to finish and possibly return a result." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-20">
-          <mxGeometry x="480" width="760" height="40" as="geometry">
-            <mxRectangle width="760" height="40" as="alternateBounds" />
+          <mxGeometry x="480" width="570" height="40" as="geometry">
+            <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-24" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-20">
-          <mxGeometry x="1240" width="400" height="40" as="geometry">
-            <mxRectangle width="400" height="40" as="alternateBounds" />
+          <mxGeometry x="1050" width="590" height="40" as="geometry">
+            <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-25" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-20">
@@ -238,13 +238,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-29" value="Represents a fire-and-forget style communication. The sender does not wait for a response." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-26">
-          <mxGeometry x="480" width="760" height="40" as="geometry">
-            <mxRectangle width="760" height="40" as="alternateBounds" />
+          <mxGeometry x="480" width="570" height="40" as="geometry">
+            <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-30" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-26">
-          <mxGeometry x="1240" width="400" height="40" as="geometry">
-            <mxRectangle width="400" height="40" as="alternateBounds" />
+          <mxGeometry x="1050" width="590" height="40" as="geometry">
+            <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-31" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-26">
@@ -266,13 +266,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-35" value="Represents the return of data or control to the sender after execution of a synchronous call." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-32">
-          <mxGeometry x="480" width="760" height="40" as="geometry">
-            <mxRectangle width="760" height="40" as="alternateBounds" />
+          <mxGeometry x="480" width="570" height="40" as="geometry">
+            <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-36" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-32">
-          <mxGeometry x="1240" width="400" height="40" as="geometry">
-            <mxRectangle width="400" height="40" as="alternateBounds" />
+          <mxGeometry x="1050" width="590" height="40" as="geometry">
+            <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-37" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-32">
@@ -294,13 +294,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-41" value="Shows the duration an object is actively performing a task (e.g., processing a request)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-38">
-          <mxGeometry x="480" width="760" height="40" as="geometry">
-            <mxRectangle width="760" height="40" as="alternateBounds" />
+          <mxGeometry x="480" width="570" height="40" as="geometry">
+            <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-42" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-38">
-          <mxGeometry x="1240" width="400" height="40" as="geometry">
-            <mxRectangle width="400" height="40" as="alternateBounds" />
+          <mxGeometry x="1050" width="590" height="40" as="geometry">
+            <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-43" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-38">
@@ -322,13 +322,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-47" value="Represents a recursive or internal method call made by the object to itself." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-44">
-          <mxGeometry x="480" width="760" height="40" as="geometry">
-            <mxRectangle width="760" height="40" as="alternateBounds" />
+          <mxGeometry x="480" width="570" height="40" as="geometry">
+            <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-48" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-44">
-          <mxGeometry x="1240" width="400" height="40" as="geometry">
-            <mxRectangle width="400" height="40" as="alternateBounds" />
+          <mxGeometry x="1050" width="590" height="40" as="geometry">
+            <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-49" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-44">
@@ -350,13 +350,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-53" value="Models the creation of a new object or instance. The lifeline starts from this point." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-50">
-          <mxGeometry x="480" width="760" height="40" as="geometry">
-            <mxRectangle width="760" height="40" as="alternateBounds" />
+          <mxGeometry x="480" width="570" height="40" as="geometry">
+            <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-54" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-50">
-          <mxGeometry x="1240" width="400" height="40" as="geometry">
-            <mxRectangle width="400" height="40" as="alternateBounds" />
+          <mxGeometry x="1050" width="590" height="40" as="geometry">
+            <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-55" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-50">
@@ -378,13 +378,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-59" value="Represents the termination of an object&#39;s lifecycle." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-56">
-          <mxGeometry x="480" width="760" height="40" as="geometry">
-            <mxRectangle width="760" height="40" as="alternateBounds" />
+          <mxGeometry x="480" width="570" height="40" as="geometry">
+            <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-60" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-56">
-          <mxGeometry x="1240" width="400" height="40" as="geometry">
-            <mxRectangle width="400" height="40" as="alternateBounds" />
+          <mxGeometry x="1050" width="590" height="40" as="geometry">
+            <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-61" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-56">
@@ -406,13 +406,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-65" value="Represents repeated interaction (iteration) based on a condition." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-62">
-          <mxGeometry x="480" width="760" height="40" as="geometry">
-            <mxRectangle width="760" height="40" as="alternateBounds" />
+          <mxGeometry x="480" width="570" height="40" as="geometry">
+            <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-66" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-62">
-          <mxGeometry x="1240" width="400" height="40" as="geometry">
-            <mxRectangle width="400" height="40" as="alternateBounds" />
+          <mxGeometry x="1050" width="590" height="40" as="geometry">
+            <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-67" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-62">
@@ -434,13 +434,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-71" value="Represents if/else or switch-case logic. Divides the interaction into mutually exclusive flows." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-68">
-          <mxGeometry x="480" width="760" height="40" as="geometry">
-            <mxRectangle width="760" height="40" as="alternateBounds" />
+          <mxGeometry x="480" width="570" height="40" as="geometry">
+            <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-72" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-68">
-          <mxGeometry x="1240" width="400" height="40" as="geometry">
-            <mxRectangle width="400" height="40" as="alternateBounds" />
+          <mxGeometry x="1050" width="590" height="40" as="geometry">
+            <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-73" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-68">
@@ -461,14 +461,14 @@
             <mxRectangle width="240" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-77" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-74">
-          <mxGeometry x="480" width="760" height="40" as="geometry">
-            <mxRectangle width="760" height="40" as="alternateBounds" />
+        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-77" value="Represents an optional execution path that runs only if a condition is met." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-74">
+          <mxGeometry x="480" width="570" height="40" as="geometry">
+            <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-78" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-74">
-          <mxGeometry x="1240" width="400" height="40" as="geometry">
-            <mxRectangle width="400" height="40" as="alternateBounds" />
+          <mxGeometry x="1050" width="590" height="40" as="geometry">
+            <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-79" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-74">
@@ -489,14 +489,14 @@
             <mxRectangle width="240" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-83" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-80">
-          <mxGeometry x="480" width="760" height="40" as="geometry">
-            <mxRectangle width="760" height="40" as="alternateBounds" />
+        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-83" value="Represents parallel execution of messages." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-80">
+          <mxGeometry x="480" width="570" height="40" as="geometry">
+            <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-84" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-80">
-          <mxGeometry x="1240" width="400" height="40" as="geometry">
-            <mxRectangle width="400" height="40" as="alternateBounds" />
+          <mxGeometry x="1050" width="590" height="40" as="geometry">
+            <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-85" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-80">
@@ -517,14 +517,14 @@
             <mxRectangle width="240" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-107" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-104">
-          <mxGeometry x="480" width="760" height="40" as="geometry">
-            <mxRectangle width="760" height="40" as="alternateBounds" />
+        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-107" value="Refers to another sequence diagram (subroutine or process)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-104">
+          <mxGeometry x="480" width="570" height="40" as="geometry">
+            <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-108" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-104">
-          <mxGeometry x="1240" width="400" height="40" as="geometry">
-            <mxRectangle width="400" height="40" as="alternateBounds" />
+          <mxGeometry x="1050" width="590" height="40" as="geometry">
+            <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vKEvwN4Y0bqUbPZ7enp6-109" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-104">
