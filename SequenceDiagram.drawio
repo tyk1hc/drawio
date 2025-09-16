@@ -377,7 +377,7 @@
             <mxRectangle width="240" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-59" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-56">
+        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-59" value="Represents the termination of an object&#39;s lifecycle." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-56">
           <mxGeometry x="480" width="760" height="40" as="geometry">
             <mxRectangle width="760" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -405,7 +405,7 @@
             <mxRectangle width="240" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-65" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-62">
+        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-65" value="Represents repeated interaction (iteration) based on a condition." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-62">
           <mxGeometry x="480" width="760" height="40" as="geometry">
             <mxRectangle width="760" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -433,7 +433,7 @@
             <mxRectangle width="240" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-71" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-68">
+        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-71" value="Represents if/else or switch-case logic. Divides the interaction into mutually exclusive flows." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-68">
           <mxGeometry x="480" width="760" height="40" as="geometry">
             <mxRectangle width="760" height="40" as="alternateBounds" />
           </mxGeometry>
