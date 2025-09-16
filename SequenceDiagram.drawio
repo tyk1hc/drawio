@@ -186,7 +186,7 @@
             <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-18" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-14">
+        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-18" value="Use to model presence and availability of a participant throughout a process. Needed for showing interactions." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-14">
           <mxGeometry x="1050" width="590" height="40" as="geometry">
             <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -214,7 +214,7 @@
             <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-24" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-20">
+        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-24" value="Use for method calls where control returns after execution. Example: function calls, login vertification, etc." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-20">
           <mxGeometry x="1050" width="590" height="40" as="geometry">
             <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
