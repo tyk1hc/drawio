@@ -242,7 +242,7 @@
             <mxRectangle width="570" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-30" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-26">
+        <mxCell id="vKEvwN4Y0bqUbPZ7enp6-30" value="Use for event-driven or background tasks, like logging, sensor events, sending messages to a queue, etc." style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1" parent="vKEvwN4Y0bqUbPZ7enp6-26">
           <mxGeometry x="1050" width="590" height="40" as="geometry">
             <mxRectangle width="590" height="40" as="alternateBounds" />
           </mxGeometry>
