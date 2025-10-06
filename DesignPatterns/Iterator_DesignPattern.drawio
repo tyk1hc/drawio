@@ -428,6 +428,9 @@
         <mxCell id="shsGGnxKzFkFG1VZT4Qe-1" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;" vertex="1" parent="1">
           <mxGeometry x="1360" y="3040" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="shsGGnxKzFkFG1VZT4Qe-2" value="Azure Keyvaults" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="3080" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
