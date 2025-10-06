@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" version="28.2.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.2.5">
   <diagram name="Page-1" id="oCdV6AftA0xOqmWGUbir">
     <mxGraphModel dx="2703" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -216,11 +216,8 @@
         <mxCell id="H-K8lQoIFdCgpRTtP1Ap-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Azure Kubernetes&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="3080" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H-K8lQoIFdCgpRTtP1Ap-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Index-Worker&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="H-K8lQoIFdCgpRTtP1Ap-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Backend&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="3440" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="H-K8lQoIFdCgpRTtP1Ap-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Index-Worker-Neo&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="3520" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H-K8lQoIFdCgpRTtP1Ap-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Frontend&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="3600" width="160" height="40" as="geometry" />
@@ -232,12 +229,6 @@
             <Array as="points">
               <mxPoint x="755" y="3460" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="H-K8lQoIFdCgpRTtP1Ap-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" target="H-K8lQoIFdCgpRTtP1Ap-19" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="770" y="3540" as="sourcePoint" />
-            <mxPoint x="820" y="3490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H-K8lQoIFdCgpRTtP1Ap-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="H-K8lQoIFdCgpRTtP1Ap-15" edge="1">
@@ -291,11 +282,8 @@
             <mxPoint x="723" y="3147" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H-K8lQoIFdCgpRTtP1Ap-40" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Index-Worker&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="H-K8lQoIFdCgpRTtP1Ap-40" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Backend&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="3156" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="H-K8lQoIFdCgpRTtP1Ap-41" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Index-Worker-Neo&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="3228" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H-K8lQoIFdCgpRTtP1Ap-42" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Frontend&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="3300" width="160" height="40" as="geometry" />
@@ -317,12 +305,6 @@
             <Array as="points">
               <mxPoint x="760" y="3176" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="H-K8lQoIFdCgpRTtP1Ap-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="770" y="3247.5" as="sourcePoint" />
-            <mxPoint x="880" y="3247.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H-K8lQoIFdCgpRTtP1Ap-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" target="H-K8lQoIFdCgpRTtP1Ap-42" edge="1">
@@ -440,7 +422,7 @@
         <mxCell id="H-K8lQoIFdCgpRTtP1Ap-65" value="High Availability - Multiple Regions" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="840" y="3050" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UG52zVlEJbqS1-rDAbrc-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;1) Nginx Ingress Controller - Application Routing Add-on (Dev and QA)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;2) Security Context - Pod should not run with root user&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;3) Load test to ensure scale out and scale in&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;4) High availability in AKS (multiple regions to 1 region)&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="UG52zVlEJbqS1-rDAbrc-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;1) Nginx Ingress Controller - Application Routing Add-on (Dev and QA)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;2) Security Context - Pod should not run with root user&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;3) Load test to ensure scale out and scale in&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;4) High availability in AKS (multiple regions to 1 region)&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-200" y="3600" width="480" height="120" as="geometry" />
         </mxCell>
       </root>
