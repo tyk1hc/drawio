@@ -7,6 +7,9 @@
         <mxCell id="Dr5I9PUTcqa0ojB0ULPx-2" value="&lt;a href=&quot;https://keda.sh/docs/2.18/concepts/&quot;&gt;KEDA Concepts | KEDA&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="80" y="50" width="440" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Dr5I9PUTcqa0ojB0ULPx-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="80" width="560" height="560" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
