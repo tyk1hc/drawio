@@ -125,7 +125,7 @@
           <mxGeometry x="40" y="760" width="560" height="760" as="geometry" />
         </mxCell>
         <mxCell id="Dr5I9PUTcqa0ojB0ULPx-36" value="External Queue (Service Bus) &#xa;    &#xa;    [Scaler]         -&gt; Reports metrics (e.g., queue length)&#xa;    &#xa;    [Metrics Server] -&gt; Feeds metrics to HPA &#xa;    &#xa;    [KEDA operator]  -&gt; Manages HPA + Scale logic &#xa;    &#xa;    [Kubernetes HPA] -&gt; Scales app pods &#xa;    &#xa;    [Your Deployment App]" style="text;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="680" y="760" width="440" height="200" as="geometry" />
+          <mxGeometry x="680" y="760" width="360" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
