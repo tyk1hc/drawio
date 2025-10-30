@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.7">
+  <diagram name="Page-1" id="tszPkqL7V5RGUYnuuYsv">
+    <mxGraphModel dx="1418" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e5Ke-O19hebGpXkhoOaO-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" width="720" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Ke-O19hebGpXkhoOaO-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="360" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Ke-O19hebGpXkhoOaO-4" value="Azure Kubernetes Service" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="540" y="120" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Ke-O19hebGpXkhoOaO-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Ke-O19hebGpXkhoOaO-6" value="Worker Node" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Ke-O19hebGpXkhoOaO-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Stardog Server&lt;br&gt;Pod&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Ke-O19hebGpXkhoOaO-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="e5Ke-O19hebGpXkhoOaO-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="319.5" as="sourcePoint" />
+            <mxPoint x="520" y="319.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5Ke-O19hebGpXkhoOaO-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Azure Application Gateway&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="80" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Ke-O19hebGpXkhoOaO-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Frontend Public IP: 158.62.1.10&lt;br&gt;Domain Name:&amp;nbsp;https://dev.knowledge.bosch-stack.com&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Ke-O19hebGpXkhoOaO-13" value="Azure Network" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e5Ke-O19hebGpXkhoOaO-14" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Azure Virtual Machine&lt;br&gt;Jump Host&lt;br&gt;&lt;br&gt;Public IP: 153.263.51.24&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="560" width="240" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
