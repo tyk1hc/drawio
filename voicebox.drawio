@@ -569,12 +569,12 @@
             <mxRectangle height="38" width="587" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-67" parent="_R2nuGOPbfJXNtZ7mmt0-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="Features" vertex="1">
+        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-67" parent="_R2nuGOPbfJXNtZ7mmt0-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="Features Request" vertex="1">
           <mxGeometry height="38" width="473" x="587" as="geometry">
             <mxRectangle height="38" width="473" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-89" parent="_R2nuGOPbfJXNtZ7mmt0-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="Work Around" vertex="1">
+        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-89" parent="_R2nuGOPbfJXNtZ7mmt0-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="Current" vertex="1">
           <mxGeometry height="38" width="700" x="1060" as="geometry">
             <mxRectangle height="38" width="700" as="alternateBounds" />
           </mxGeometry>
