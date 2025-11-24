@@ -93,7 +93,7 @@
             <mxRectangle height="40" width="370" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J6Fzg5FH88wj23QENZQr-103" parent="J6Fzg5FH88wj23QENZQr-99" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;rowspan=5;colspan=1;" value="&lt;ul&gt;&lt;li&gt;Clear separation between prepaid vs pay-per-use billing models.&lt;/li&gt;&lt;li&gt;How usage data is tracked reliably&lt;/li&gt;&lt;li&gt;Transparency for customers (dashboard, reports)&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+        <mxCell id="J6Fzg5FH88wj23QENZQr-103" parent="J6Fzg5FH88wj23QENZQr-99" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;rowspan=5;colspan=1;" value="" vertex="1">
           <mxGeometry height="200" width="370" x="1110" as="geometry">
             <mxRectangle height="40" width="370" as="alternateBounds" />
           </mxGeometry>
