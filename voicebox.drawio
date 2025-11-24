@@ -585,7 +585,7 @@
             <mxRectangle height="230" width="920" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-70" parent="_R2nuGOPbfJXNtZ7mmt0-68" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ul&gt;&lt;li&gt;Structured LLM usage logs, metrics per DB/tenant, latency &amp;amp; error metrics&lt;/li&gt;&lt;li&gt;Track Voicebox-enabled DBs, API to list/enable/disable, events&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-70" parent="_R2nuGOPbfJXNtZ7mmt0-68" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ul&gt;&lt;li&gt;Structured LLM usage logs, metrics per DB/tenant, latency &amp;amp; error metrics&lt;/li&gt;&lt;li&gt;Track Voicebox-enabled DBs, API to list/enable/disable, events&lt;/li&gt;&lt;li&gt;Voicebox config per endpoint, per DB&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="230" width="920" x="920" as="geometry">
             <mxRectangle height="230" width="920" as="alternateBounds" />
           </mxGeometry>
