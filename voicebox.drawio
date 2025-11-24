@@ -49,9 +49,6 @@
             <mxPoint x="690" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;div&gt;Voicebox&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Voicebox logs &amp;amp; metrics (&lt;span style=&quot;color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;Missing&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Voicebox dashboards for logs, metrics&lt;/div&gt;&lt;div&gt;-Voicebox-enabled DB visibility&lt;/div&gt;&lt;div&gt;-Trace/limit LLM cost per customer&lt;/div&gt;&lt;div&gt;-Secure communication to the LLM via Entra ID&amp;nbsp;&lt;/div&gt;&lt;div&gt;-Ability to limit or trace number of Voicebox-enabled DBs&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="160" width="440" x="840" y="400" as="geometry" />
-        </mxCell>
         <mxCell id="J6Fzg5FH88wj23QENZQr-93" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" value="" vertex="1">
           <mxGeometry height="930" width="1840" x="-480" y="2040" as="geometry" />
         </mxCell>
@@ -590,7 +587,7 @@
             <mxRectangle height="522" width="587" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-70" parent="_R2nuGOPbfJXNtZ7mmt0-68" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Structured LLM usage logs, metrics per DB/tenant, latency &amp;amp; error metrics&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Voicebox config per endpoint, per DB&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Track Voicebox-enabled DBs events&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Voicebox API to list/enable/disable voicebox&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Permission model for voicebox&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-70" parent="_R2nuGOPbfJXNtZ7mmt0-68" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Structured LLM usage logs&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Metrics per DB/tenant, latency &amp;amp; error metrics&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Voicebox config per endpoint, per DB&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Track Voicebox-enabled DBs events&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Voicebox API to list/enable/disable voicebox&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Permission model for voicebox&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="522" width="473" x="587" as="geometry">
             <mxRectangle height="522" width="473" as="alternateBounds" />
           </mxGeometry>
