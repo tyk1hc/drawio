@@ -561,7 +561,7 @@
             <mxRectangle height="40" width="430" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-64" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" value="" vertex="1">
+        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-64" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;align=left;" value="" vertex="1">
           <mxGeometry height="590" width="1760" x="-480" y="720" as="geometry" />
         </mxCell>
         <mxCell id="_R2nuGOPbfJXNtZ7mmt0-65" parent="_R2nuGOPbfJXNtZ7mmt0-64" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
@@ -595,7 +595,7 @@
             <mxRectangle height="310" width="473" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-90" parent="_R2nuGOPbfJXNtZ7mmt0-68" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" vertex="1">
+        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-90" parent="_R2nuGOPbfJXNtZ7mmt0-68" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ul&gt;&lt;li&gt;Dedicated instance: host a separated voicebox service + LLM Model&lt;/li&gt;&lt;li&gt;Shared instance: all customer use a same LLM Model + voicebox service.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="310" width="700" x="1060" as="geometry">
             <mxRectangle height="310" width="700" as="alternateBounds" />
           </mxGeometry>
