@@ -65,7 +65,7 @@
             <mxRectangle height="40" width="800" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J6Fzg5FH88wj23QENZQr-96" parent="J6Fzg5FH88wj23QENZQr-94" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="Requirement" vertex="1">
+        <mxCell id="J6Fzg5FH88wj23QENZQr-96" parent="J6Fzg5FH88wj23QENZQr-94" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="Pay attention" vertex="1">
           <mxGeometry height="40" width="450" x="960" as="geometry">
             <mxRectangle height="40" width="450" as="alternateBounds" />
           </mxGeometry>
@@ -88,7 +88,7 @@
             <mxRectangle height="50" width="800" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J6Fzg5FH88wj23QENZQr-101" parent="J6Fzg5FH88wj23QENZQr-99" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="Trace / limit LLM cost per customer (per instance or per DB)" vertex="1">
+        <mxCell id="J6Fzg5FH88wj23QENZQr-101" parent="J6Fzg5FH88wj23QENZQr-99" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="Trace / limit LLM cost per customer (per instance or per DB)&lt;div&gt;Need clear usage tracking, handle prepaid vs pay-per-use models.&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="450" x="960" as="geometry">
             <mxRectangle height="50" width="450" as="alternateBounds" />
           </mxGeometry>
@@ -111,7 +111,7 @@
             <mxRectangle height="50" width="800" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J6Fzg5FH88wj23QENZQr-106" parent="J6Fzg5FH88wj23QENZQr-104" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="Limit available tokens per customer per month" vertex="1">
+        <mxCell id="J6Fzg5FH88wj23QENZQr-106" parent="J6Fzg5FH88wj23QENZQr-104" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;div&gt;Limit available tokens per customer per month&lt;/div&gt;&lt;div&gt;Prepaid tokens (no expiration, refill when empty) or monthly limit&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="450" x="960" as="geometry">
             <mxRectangle height="50" width="450" as="alternateBounds" />
           </mxGeometry>
@@ -134,7 +134,7 @@
             <mxRectangle height="50" width="800" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J6Fzg5FH88wj23QENZQr-111" parent="J6Fzg5FH88wj23QENZQr-109" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="Charge based on actual token consumption per month&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+        <mxCell id="J6Fzg5FH88wj23QENZQr-111" parent="J6Fzg5FH88wj23QENZQr-109" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;div&gt;Charge based on actual token consumption per month&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Decide if users can choose between limit or pay-per-use&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="450" x="960" as="geometry">
             <mxRectangle height="50" width="450" as="alternateBounds" />
           </mxGeometry>
@@ -157,7 +157,7 @@
             <mxRectangle height="50" width="800" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J6Fzg5FH88wj23QENZQr-116" parent="J6Fzg5FH88wj23QENZQr-114" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="Bind LLM to customer cost center (BYOLL support)" vertex="1">
+        <mxCell id="J6Fzg5FH88wj23QENZQr-116" parent="J6Fzg5FH88wj23QENZQr-114" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;div&gt;Bind LLM to customer cost center (BYOLL support)&lt;/div&gt;&lt;div&gt;Ensure proper accounting and cost allocation&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="450" x="960" as="geometry">
             <mxRectangle height="50" width="450" as="alternateBounds" />
           </mxGeometry>
@@ -180,7 +180,7 @@
             <mxRectangle height="50" width="800" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J6Fzg5FH88wj23QENZQr-121" parent="J6Fzg5FH88wj23QENZQr-119" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="Show LLM costs to users and platform" vertex="1">
+        <mxCell id="J6Fzg5FH88wj23QENZQr-121" parent="J6Fzg5FH88wj23QENZQr-119" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;div&gt;Show LLM costs to users and platform.&lt;/div&gt;&lt;div&gt;Per DB for shared instance, per instance for dedicated instance.&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="450" x="960" as="geometry">
             <mxRectangle height="50" width="450" as="alternateBounds" />
           </mxGeometry>
