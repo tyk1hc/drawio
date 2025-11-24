@@ -53,7 +53,7 @@
           <mxGeometry height="160" width="440" x="840" y="400" as="geometry" />
         </mxCell>
         <mxCell id="J6Fzg5FH88wj23QENZQr-93" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" value="" vertex="1">
-          <mxGeometry height="930" width="1840" x="-480" y="1720" as="geometry" />
+          <mxGeometry height="930" width="1840" x="-480" y="2040" as="geometry" />
         </mxCell>
         <mxCell id="J6Fzg5FH88wj23QENZQr-94" parent="J6Fzg5FH88wj23QENZQr-93" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
           <mxGeometry height="40" width="1840" as="geometry" />
@@ -562,150 +562,42 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_R2nuGOPbfJXNtZ7mmt0-64" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;align=left;" value="" vertex="1">
-          <mxGeometry height="590" width="1760" x="-480" y="720" as="geometry" />
+          <mxGeometry height="560" width="1760" x="-480" y="720" as="geometry" />
         </mxCell>
         <mxCell id="_R2nuGOPbfJXNtZ7mmt0-65" parent="_R2nuGOPbfJXNtZ7mmt0-64" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="40" width="1760" as="geometry" />
+          <mxGeometry height="38" width="1760" as="geometry" />
         </mxCell>
         <mxCell id="_R2nuGOPbfJXNtZ7mmt0-66" parent="_R2nuGOPbfJXNtZ7mmt0-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="Requirements" vertex="1">
-          <mxGeometry height="40" width="587" as="geometry">
-            <mxRectangle height="40" width="587" as="alternateBounds" />
+          <mxGeometry height="38" width="587" as="geometry">
+            <mxRectangle height="38" width="587" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_R2nuGOPbfJXNtZ7mmt0-67" parent="_R2nuGOPbfJXNtZ7mmt0-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="Features" vertex="1">
-          <mxGeometry height="40" width="473" x="587" as="geometry">
-            <mxRectangle height="40" width="473" as="alternateBounds" />
+          <mxGeometry height="38" width="473" x="587" as="geometry">
+            <mxRectangle height="38" width="473" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_R2nuGOPbfJXNtZ7mmt0-89" parent="_R2nuGOPbfJXNtZ7mmt0-65" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="Work Around" vertex="1">
-          <mxGeometry height="40" width="700" x="1060" as="geometry">
-            <mxRectangle height="40" width="700" as="alternateBounds" />
+          <mxGeometry height="38" width="700" x="1060" as="geometry">
+            <mxRectangle height="38" width="700" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_R2nuGOPbfJXNtZ7mmt0-68" parent="_R2nuGOPbfJXNtZ7mmt0-64" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" value="" vertex="1">
-          <mxGeometry height="310" width="1760" y="40" as="geometry" />
+          <mxGeometry height="522" width="1760" y="38" as="geometry" />
         </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-69" parent="_R2nuGOPbfJXNtZ7mmt0-68" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ul style=&quot;margin-top: 10px; margin-right: 0px; margin-bottom: 1em !important; margin-left: 0px; color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li&gt;Be able to trace/limit cost for LLM per customer (i.e. for each instance/each DB)&lt;ul style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 1em !important; margin-left: 0px;&quot;&gt;&lt;li&gt;We limit the available tokens per customer per month, to avoid extensive cost&lt;ul style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 1em !important; margin-left: 0px;&quot;&gt;&lt;li&gt;Prepaid tokens: order tokens upfront for usage, without expiration. Once empty order new ones…&lt;/li&gt;&lt;li&gt;Have a monthly limit on available tokens&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Or we charge the consumed tokens per customer per month&lt;/li&gt;&lt;li&gt;Should it be the users choice if having a limit or actual consumption charge?&lt;/li&gt;&lt;li&gt;be able to bind the LLM to the cost center of the customer directly (e.g. customer brings its own LLM...)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;we and the users should be able to see the LLM cost (per month)&lt;ul style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 1em !important; margin-left: 0px;&quot;&gt;&lt;li&gt;per DB for shared instance&lt;/li&gt;&lt;li&gt;per instance for dedicated instance&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
-          <mxGeometry height="310" width="587" as="geometry">
-            <mxRectangle height="310" width="587" as="alternateBounds" />
+        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-69" parent="_R2nuGOPbfJXNtZ7mmt0-68" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ul style=&quot;margin-top: 10px; margin-right: 0px; margin-bottom: 1em !important; margin-left: 0px; color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li&gt;Be able to trace/limit cost for LLM per customer (i.e. for each instance/each DB)&lt;ul style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 1em !important; margin-left: 0px;&quot;&gt;&lt;li&gt;We limit the available tokens per customer per month, to avoid extensive cost&lt;ul style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 1em !important; margin-left: 0px;&quot;&gt;&lt;li&gt;Prepaid tokens: order tokens upfront for usage, without expiration. Once empty order new ones…&lt;/li&gt;&lt;li&gt;Have a monthly limit on available tokens&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Or we charge the consumed tokens per customer per month&lt;/li&gt;&lt;li&gt;Should it be the users choice if having a limit or actual consumption charge?&lt;/li&gt;&lt;li&gt;be able to bind the LLM to the cost center of the customer directly (e.g. customer brings its own LLM...)&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;we and the users should be able to see the LLM cost (per month)&lt;ul style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 1em !important; margin-left: 0px;&quot;&gt;&lt;li&gt;per DB for shared instance&lt;/li&gt;&lt;li&gt;per instance for dedicated instance&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;we and the users should be able to see the Voicebox-enabled DBs&lt;/li&gt;&lt;li&gt;Limit or trace number of Voicebox enabled DBs&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Customer should only be able to enable as many Voicebox DBs as he pays for&lt;br/&gt;&lt;ul&gt;&lt;li&gt;Do not allow instance admins to enable voicebox, only we should be allowed?&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Or we trace and charge the customer the amount of Voicebox enabled DBs, per month, extra&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;&lt;/li&gt;&lt;li&gt;Be able to easily enable additional DBs for Voicebox: for us and/or the customer?&lt;/li&gt;&lt;li&gt;Have Voicebox dashboards for logs, metrics (number of Voicebox request, request time, …)&lt;/li&gt;&lt;li&gt;Increase Voicebox security by changing communication between Voicebox and LLM (currently API key, proposed solution: Entra ID)&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="522" width="587" as="geometry">
+            <mxRectangle height="522" width="587" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_R2nuGOPbfJXNtZ7mmt0-70" parent="_R2nuGOPbfJXNtZ7mmt0-68" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Structured LLM usage logs, metrics per DB/tenant, latency &amp;amp; error metrics&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Track Voicebox-enabled DBs, API to list/enable/disable, events&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Voicebox config per endpoint, per DB&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
-          <mxGeometry height="310" width="473" x="587" as="geometry">
-            <mxRectangle height="310" width="473" as="alternateBounds" />
+          <mxGeometry height="522" width="473" x="587" as="geometry">
+            <mxRectangle height="522" width="473" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_R2nuGOPbfJXNtZ7mmt0-90" parent="_R2nuGOPbfJXNtZ7mmt0-68" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ul&gt;&lt;li&gt;Dedicated instance: host a separated voicebox service + LLM Model&lt;/li&gt;&lt;li&gt;Shared instance: all customer use a same LLM Model + voicebox service.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
-          <mxGeometry height="310" width="700" x="1060" as="geometry">
-            <mxRectangle height="310" width="700" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-71" parent="_R2nuGOPbfJXNtZ7mmt0-64" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="40" width="1760" y="350" as="geometry" />
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-72" parent="_R2nuGOPbfJXNtZ7mmt0-71" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="40" width="587" as="geometry">
-            <mxRectangle height="40" width="587" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-73" parent="_R2nuGOPbfJXNtZ7mmt0-71" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="40" width="473" x="587" as="geometry">
-            <mxRectangle height="40" width="473" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-91" parent="_R2nuGOPbfJXNtZ7mmt0-71" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
-          <mxGeometry height="40" width="700" x="1060" as="geometry">
-            <mxRectangle height="40" width="700" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-74" parent="_R2nuGOPbfJXNtZ7mmt0-64" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="40" width="1760" y="390" as="geometry" />
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-75" parent="_R2nuGOPbfJXNtZ7mmt0-74" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="40" width="587" as="geometry">
-            <mxRectangle height="40" width="587" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-76" parent="_R2nuGOPbfJXNtZ7mmt0-74" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="40" width="473" x="587" as="geometry">
-            <mxRectangle height="40" width="473" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-92" parent="_R2nuGOPbfJXNtZ7mmt0-74" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
-          <mxGeometry height="40" width="700" x="1060" as="geometry">
-            <mxRectangle height="40" width="700" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-77" parent="_R2nuGOPbfJXNtZ7mmt0-64" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="40" width="1760" y="430" as="geometry" />
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-78" parent="_R2nuGOPbfJXNtZ7mmt0-77" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="40" width="587" as="geometry">
-            <mxRectangle height="40" width="587" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-79" parent="_R2nuGOPbfJXNtZ7mmt0-77" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="" vertex="1">
-          <mxGeometry height="40" width="473" x="587" as="geometry">
-            <mxRectangle height="40" width="473" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-93" parent="_R2nuGOPbfJXNtZ7mmt0-77" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
-          <mxGeometry height="40" width="700" x="1060" as="geometry">
-            <mxRectangle height="40" width="700" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-80" parent="_R2nuGOPbfJXNtZ7mmt0-64" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
-          <mxGeometry height="40" width="1760" y="470" as="geometry" />
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-81" parent="_R2nuGOPbfJXNtZ7mmt0-80" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
-          <mxGeometry height="40" width="587" as="geometry">
-            <mxRectangle height="40" width="587" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-82" parent="_R2nuGOPbfJXNtZ7mmt0-80" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
-          <mxGeometry height="40" width="473" x="587" as="geometry">
-            <mxRectangle height="40" width="473" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-94" parent="_R2nuGOPbfJXNtZ7mmt0-80" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
-          <mxGeometry height="40" width="700" x="1060" as="geometry">
-            <mxRectangle height="40" width="700" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-83" parent="_R2nuGOPbfJXNtZ7mmt0-64" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
-          <mxGeometry height="40" width="1760" y="510" as="geometry" />
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-84" parent="_R2nuGOPbfJXNtZ7mmt0-83" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
-          <mxGeometry height="40" width="587" as="geometry">
-            <mxRectangle height="40" width="587" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-85" parent="_R2nuGOPbfJXNtZ7mmt0-83" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
-          <mxGeometry height="40" width="473" x="587" as="geometry">
-            <mxRectangle height="40" width="473" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-95" parent="_R2nuGOPbfJXNtZ7mmt0-83" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
-          <mxGeometry height="40" width="700" x="1060" as="geometry">
-            <mxRectangle height="40" width="700" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-86" parent="_R2nuGOPbfJXNtZ7mmt0-64" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
-          <mxGeometry height="40" width="1760" y="550" as="geometry" />
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-87" parent="_R2nuGOPbfJXNtZ7mmt0-86" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
-          <mxGeometry height="40" width="587" as="geometry">
-            <mxRectangle height="40" width="587" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-88" parent="_R2nuGOPbfJXNtZ7mmt0-86" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
-          <mxGeometry height="40" width="473" x="587" as="geometry">
-            <mxRectangle height="40" width="473" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-96" parent="_R2nuGOPbfJXNtZ7mmt0-86" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1">
-          <mxGeometry height="40" width="700" x="1060" as="geometry">
-            <mxRectangle height="40" width="700" as="alternateBounds" />
+          <mxGeometry height="522" width="700" x="1060" as="geometry">
+            <mxRectangle height="522" width="700" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>
