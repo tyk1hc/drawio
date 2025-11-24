@@ -592,7 +592,7 @@
             <mxRectangle height="522" width="473" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-90" parent="_R2nuGOPbfJXNtZ7mmt0-68" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ul&gt;&lt;li&gt;Dedicated instance: host a separated voicebox service + LLM Model&lt;/li&gt;&lt;li&gt;Shared instance: all customer use a same LLM Model + voicebox service.&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+        <mxCell id="_R2nuGOPbfJXNtZ7mmt0-90" parent="_R2nuGOPbfJXNtZ7mmt0-68" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Dedicated instance: customer use a dedicated voicebox service + a dedicated LLM Model&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Shared instance: customers use a shared voicebox service + a shared LLM Model.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="522" width="700" x="1060" as="geometry">
             <mxRectangle height="522" width="700" as="alternateBounds" />
           </mxGeometry>
