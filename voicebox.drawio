@@ -93,8 +93,8 @@
             <mxRectangle height="50" width="450" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J6Fzg5FH88wj23QENZQr-102" parent="J6Fzg5FH88wj23QENZQr-99" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="Need clear usage tracking, handle prepaid vs pay-per-use models." vertex="1">
-          <mxGeometry height="50" width="430" x="1410" as="geometry">
+        <mxCell id="J6Fzg5FH88wj23QENZQr-102" parent="J6Fzg5FH88wj23QENZQr-99" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;rowspan=5;colspan=1;" value="" vertex="1">
+          <mxGeometry height="250" width="430" x="1410" as="geometry">
             <mxRectangle height="50" width="430" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -116,7 +116,7 @@
             <mxRectangle height="50" width="450" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J6Fzg5FH88wj23QENZQr-107" parent="J6Fzg5FH88wj23QENZQr-104" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="Prepaid tokens (no expiration, refill when empty) or monthly limit" vertex="1">
+        <mxCell id="J6Fzg5FH88wj23QENZQr-107" parent="J6Fzg5FH88wj23QENZQr-104" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="" vertex="1" visible="0">
           <mxGeometry height="50" width="430" x="1410" as="geometry">
             <mxRectangle height="50" width="430" as="alternateBounds" />
           </mxGeometry>
@@ -139,7 +139,7 @@
             <mxRectangle height="50" width="450" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J6Fzg5FH88wj23QENZQr-112" parent="J6Fzg5FH88wj23QENZQr-109" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="Decide if users can choose between limit or pay-per-use" vertex="1">
+        <mxCell id="J6Fzg5FH88wj23QENZQr-112" parent="J6Fzg5FH88wj23QENZQr-109" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="" vertex="1" visible="0">
           <mxGeometry height="50" width="430" x="1410" as="geometry">
             <mxRectangle height="50" width="430" as="alternateBounds" />
           </mxGeometry>
@@ -162,7 +162,7 @@
             <mxRectangle height="50" width="450" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J6Fzg5FH88wj23QENZQr-117" parent="J6Fzg5FH88wj23QENZQr-114" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="Ensure proper accounting and cost allocation" vertex="1">
+        <mxCell id="J6Fzg5FH88wj23QENZQr-117" parent="J6Fzg5FH88wj23QENZQr-114" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="" vertex="1" visible="0">
           <mxGeometry height="50" width="430" x="1410" as="geometry">
             <mxRectangle height="50" width="430" as="alternateBounds" />
           </mxGeometry>
@@ -185,7 +185,7 @@
             <mxRectangle height="50" width="450" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J6Fzg5FH88wj23QENZQr-122" parent="J6Fzg5FH88wj23QENZQr-119" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="Per DB for shared instance, per instance for dedicated instance." vertex="1">
+        <mxCell id="J6Fzg5FH88wj23QENZQr-122" parent="J6Fzg5FH88wj23QENZQr-119" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="" vertex="1" visible="0">
           <mxGeometry height="50" width="430" x="1410" as="geometry">
             <mxRectangle height="50" width="430" as="alternateBounds" />
           </mxGeometry>
