@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
   <diagram name="Page-1" id="b7z96z4i4cSuDoULV2zY">
-    <mxGraphModel dx="2507" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2268" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -596,6 +596,18 @@
           <mxGeometry height="587" width="660" x="1100" as="geometry">
             <mxRectangle height="587" width="660" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="k13gg6QGsgs4-P15ltvN-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#99CCFF;fontSize=14;" value="&lt;b&gt;User&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;(Browser)&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="120" x="-280" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="k13gg6QGsgs4-P15ltvN-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Launchpad&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="160" x="-40" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="k13gg6QGsgs4-P15ltvN-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCCCC;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Voicebox&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Service&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="120" x="240" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="k13gg6QGsgs4-P15ltvN-4" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFF99;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Stardog Server&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="160" x="-40" y="1840" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
