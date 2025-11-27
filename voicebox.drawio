@@ -795,6 +795,12 @@
         <mxCell id="k13gg6QGsgs4-P15ltvN-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;HTTP&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="270" y="1980" as="geometry" />
         </mxCell>
+        <mxCell id="k13gg6QGsgs4-P15ltvN-79" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Launchpad&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="170" y="1890" as="geometry" />
+        </mxCell>
+        <mxCell id="k13gg6QGsgs4-P15ltvN-80" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Launchpad&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="180" y="1900" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
