@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="29.6.0">
+  <diagram name="Page-1" id="2nws7DzRmLwFIe89oNwo">
+    <mxGraphModel dx="1947" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ff5HtilE91rRROWGTy6a-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="480" width="560" x="-160" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff5HtilE91rRROWGTy6a-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="320" width="400" x="-80" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff5HtilE91rRROWGTy6a-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=default;fillColor=none;" value="AKS Cluster" vertex="1">
+          <mxGeometry height="160" width="240" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff5HtilE91rRROWGTy6a-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" value="Virtual Network" vertex="1">
+          <mxGeometry height="30" width="160" x="-80" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff5HtilE91rRROWGTy6a-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" value="Azure Subscription" vertex="1">
+          <mxGeometry height="30" width="160" x="-160" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff5HtilE91rRROWGTy6a-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Stardog Prod" vertex="1">
+          <mxGeometry height="120" width="240" x="680" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff5HtilE91rRROWGTy6a-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Stardog Dev/QA" vertex="1">
+          <mxGeometry height="120" width="240" x="680" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ff5HtilE91rRROWGTy6a-8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Ff5HtilE91rRROWGTy6a-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="400" as="sourcePoint" />
+            <mxPoint x="290" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ff5HtilE91rRROWGTy6a-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Ff5HtilE91rRROWGTy6a-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="400" as="sourcePoint" />
+            <mxPoint x="290" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msc61vGU_Y0LSs_M4Hwk-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="-80" y="530" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
