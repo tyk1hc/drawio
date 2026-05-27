@@ -8,10 +8,10 @@
           <mxGeometry height="350" width="760" x="40" y="50" as="geometry" />
         </mxCell>
         <mxCell id="MGsdMgP7l0InPqgAwvWF-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" value="/" vertex="1">
-          <mxGeometry height="40" width="40" x="-640" y="400" as="geometry" />
+          <mxGeometry height="40" width="40" x="-680" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="MGsdMgP7l0InPqgAwvWF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Leader Election Algorithm - Step 1" vertex="1">
-          <mxGeometry height="30" width="360" x="-800" y="330" as="geometry" />
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Leader Election Algorithm" vertex="1">
+          <mxGeometry height="30" width="360" x="-880" y="330" as="geometry" />
         </mxCell>
         <mxCell id="MGsdMgP7l0InPqgAwvWF-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
           <mxGeometry height="40" width="40" x="-760" y="480" as="geometry" />
@@ -19,7 +19,7 @@
         <mxCell id="MGsdMgP7l0InPqgAwvWF-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/election" vertex="1">
           <mxGeometry height="30" width="60" x="-820" y="480" as="geometry" />
         </mxCell>
-        <mxCell id="MGsdMgP7l0InPqgAwvWF-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
           <mxGeometry height="40" width="40" x="-880" y="560" as="geometry" />
         </mxCell>
         <mxCell id="MGsdMgP7l0InPqgAwvWF-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
@@ -66,6 +66,15 @@
         </mxCell>
         <mxCell id="MGsdMgP7l0InPqgAwvWF-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/election/c_4" vertex="1">
           <mxGeometry height="30" width="80" x="-540" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;b&gt;Step 1&lt;/b&gt;: Nodes Volunteer to Become Leader&amp;nbsp;&lt;/div&gt;&lt;div&gt;Every node connected to ZooKeeper volunteers to become the leader.&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Each node submits its candidacy by creating a ZNode representing itself under the election parent node.&lt;/li&gt;&lt;li&gt;Zookeeper maintains a global ordering, so each ZNode is assigned a sequence number based on the order it was created.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;b&gt;Step 2&lt;/b&gt;: Nodes Check the Election Queue&lt;/div&gt;&lt;div&gt;After creating its ZNode, each node queries the children of the election parent.&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Because ZooKeeper guarantees ordering, a node can always see all ZNodes created before its own.&lt;/li&gt;&lt;li&gt;This allows every node to determine its position in the election sequence.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;b&gt;Step 3&lt;/b&gt;: Leader Selection&lt;/div&gt;&lt;div&gt;Each node compares its ZNode sequence number with the others.&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;If a node&#39;s ZNode has the smallest sequence number, it becomes the leader.&lt;/li&gt;&lt;li&gt;Otherwise, the node knows it is not the leader and waits for instructions from the elected leader.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="600" x="-920" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-22" edge="1" parent="1" source="MGsdMgP7l0InPqgAwvWF-5" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-710" y="490" as="sourcePoint" />
+            <mxPoint x="-660" y="440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
