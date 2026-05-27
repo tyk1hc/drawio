@@ -468,14 +468,14 @@
         </mxCell>
         <mxCell id="kIgsmheDJQz7XmRfPmZH-48" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=3;strokeColor=light-dark(#ff0000, #ededed);" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-790" y="2800" as="sourcePoint" />
-            <mxPoint x="-870" y="2720" as="targetPoint" />
+            <mxPoint x="-790" y="2792" as="sourcePoint" />
+            <mxPoint x="-870" y="2712" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kIgsmheDJQz7XmRfPmZH-49" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=3;strokeColor=light-dark(#ff0000, #ededed);" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-870" y="2800" as="sourcePoint" />
-            <mxPoint x="-790" y="2720" as="targetPoint" />
+            <mxPoint x="-870" y="2792" as="sourcePoint" />
+            <mxPoint x="-790" y="2712" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kIgsmheDJQz7XmRfPmZH-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Read&amp;nbsp;" vertex="1">
