@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Challenges of Master - Workers Architecture&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Automatic and System Leader election is not a trivial task to solve, even among people.&lt;/li&gt;&lt;li&gt;Arriving to an agreement on a leader in a large cluster of nodes is even harder.&lt;/li&gt;&lt;li&gt;By default each node knows only about itself Service Registry and discovery is required.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="760" x="40" y="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
