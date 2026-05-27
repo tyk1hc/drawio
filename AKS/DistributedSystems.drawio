@@ -1,11 +1,71 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="tO2NQB0IofIboXUTSpVf">
-    <mxGraphModel dx="1841" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3541" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MGsdMgP7l0InPqgAwvWF-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Challenges of Master - Workers Architecture&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Automatic and System Leader election is not a trivial task to solve, even among people.&lt;/li&gt;&lt;li&gt;Arriving to an agreement on a leader in a large cluster of nodes is even harder.&lt;/li&gt;&lt;li&gt;By default each node knows only about itself Service Registry and discovery is required.&lt;/li&gt;&lt;li&gt;Failure Detection mechanism is necessary to trigger automatic leader reelection in a cluster&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Master - Workers Coordination Solution&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Implement distributed algorithm for consensus and failover from scratch&lt;/li&gt;&lt;li&gt;Apache Zookeeper - High Performance Distributed System Coordination Service&amp;nbsp;&lt;/li&gt;&lt;li&gt;A high performance coordination service designed specifically for distributed systems.&lt;/li&gt;&lt;li&gt;Popular technology used by many companies and projects (Kafka, Hadoop, HBase etc..)&lt;/li&gt;&lt;li&gt;Provides an abstraction layer for higher level distributed algorithms&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="230" width="760" x="40" y="50" as="geometry" />
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Challenges of Master - Workers Architecture&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Automatic and System Leader election is not a trivial task to solve, even among people.&lt;/li&gt;&lt;li&gt;Arriving to an agreement on a leader in a large cluster of nodes is even harder.&lt;/li&gt;&lt;li&gt;By default each node knows only about itself Service Registry and discovery is required.&lt;/li&gt;&lt;li&gt;Failure Detection mechanism is necessary to trigger automatic leader reelection in a cluster&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Master - Workers Coordination Solution&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Implement distributed algorithm for consensus and failover from scratch&lt;/li&gt;&lt;li&gt;Apache Zookeeper - High Performance Distributed System Coordination Service&amp;nbsp;&lt;/li&gt;&lt;li&gt;A high performance coordination service designed specifically for distributed systems.&lt;/li&gt;&lt;li&gt;Popular technology used by many companies and projects (Kafka, Hadoop, HBase etc..)&lt;/li&gt;&lt;li&gt;Provides an abstraction layer for higher level distributed algorithms&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;What makes Zookeeper a good solution?&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Is a distributed system itself that provides us high availability and reliability.&lt;/li&gt;&lt;li&gt;Typically runs in a cluster of an odd number of nodes, higher than 3.&lt;/li&gt;&lt;li&gt;Uses redundancy to allow failures and stay functional.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="350" width="760" x="40" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" value="/" vertex="1">
+          <mxGeometry height="40" width="40" x="-640" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Leader Election Algorithm - Step 1" vertex="1">
+          <mxGeometry height="30" width="360" x="-800" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="-760" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/election" vertex="1">
+          <mxGeometry height="30" width="60" x="-820" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="-880" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="-760" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="-640" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="-520" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-13" edge="1" parent="1" source="MGsdMgP7l0InPqgAwvWF-9" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-810" y="560" as="sourcePoint" />
+            <mxPoint x="-760" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-14" edge="1" parent="1" source="MGsdMgP7l0InPqgAwvWF-10" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="MGsdMgP7l0InPqgAwvWF-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-790" y="570" as="sourcePoint" />
+            <mxPoint x="-740" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-15" edge="1" parent="1" source="MGsdMgP7l0InPqgAwvWF-11" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="MGsdMgP7l0InPqgAwvWF-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-700" y="560" as="sourcePoint" />
+            <mxPoint x="-650" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-16" edge="1" parent="1" source="MGsdMgP7l0InPqgAwvWF-12" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="MGsdMgP7l0InPqgAwvWF-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-610" y="560" as="sourcePoint" />
+            <mxPoint x="-560" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/election/c_1" vertex="1">
+          <mxGeometry height="30" width="80" x="-900" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/election/c_2" vertex="1">
+          <mxGeometry height="30" width="80" x="-780" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/election/c_3" vertex="1">
+          <mxGeometry height="30" width="80" x="-660" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="/election/c_4" vertex="1">
+          <mxGeometry height="30" width="80" x="-540" y="600" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
