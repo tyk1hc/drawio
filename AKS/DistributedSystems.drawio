@@ -592,6 +592,48 @@
         <mxCell id="kIgsmheDJQz7XmRfPmZH-86" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;b&gt;Strict Consistency&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;In Strict Consistency, the writer will not get an acknowledgement until we can guarantee that all the readers will see the new data.&lt;/li&gt;&lt;li&gt;Slows down operations and limits system&#39;s availability (if some replicas are temporarily not accessible)&lt;/li&gt;&lt;li&gt;Essential for systems that need to be consistent across all the services.&lt;/li&gt;&lt;li&gt;Examples:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;User&#39;s Account&lt;/li&gt;&lt;li&gt;Number of items in a store&#39;s inventory&amp;nbsp;&lt;/li&gt;&lt;li&gt;Available/Booked seats in a theater&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="200" width="480" x="-880" y="3120" as="geometry" />
         </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-87" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Quorum Consensus - Record Version&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="360" x="-880" y="3330" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-88" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Record:&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="80" x="-880" y="3365" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-89" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Key" vertex="1">
+          <mxGeometry height="40" width="80" x="-800" y="3360" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Data" vertex="1">
+          <mxGeometry height="40" width="80" x="-720" y="3360" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-91" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Version" vertex="1">
+          <mxGeometry height="40" width="80" x="-640" y="3360" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-92" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Every update to a record increments the version number" vertex="1">
+          <mxGeometry height="30" width="360" x="-880" y="3410" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-93" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Old Record:" vertex="1">
+          <mxGeometry height="30" width="80" x="-880" y="3445" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-94" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Key 1" vertex="1">
+          <mxGeometry height="40" width="80" x="-800" y="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Data 1" vertex="1">
+          <mxGeometry height="40" width="80" x="-720" y="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-96" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="1" vertex="1">
+          <mxGeometry height="40" width="80" x="-640" y="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-97" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="New Record:" vertex="1">
+          <mxGeometry height="30" width="80" x="-880" y="3495" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-98" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Key 1" vertex="1">
+          <mxGeometry height="40" width="80" x="-800" y="3490" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-99" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Data 2" vertex="1">
+          <mxGeometry height="40" width="80" x="-720" y="3490" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-100" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="2" vertex="1">
+          <mxGeometry height="40" width="80" x="-640" y="3490" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
