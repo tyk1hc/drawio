@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="tO2NQB0IofIboXUTSpVf">
-    <mxGraphModel dx="4391" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4303" dy="1767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,8 +76,8 @@
             <mxPoint x="-720" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MGsdMgP7l0InPqgAwvWF-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;IO Thread&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Handles all the network communication with Zookeeper servers.&lt;/li&gt;&lt;li&gt;Handles Zookeeper requests and responses&amp;nbsp;&lt;/li&gt;&lt;li&gt;Responds to pings&amp;nbsp;&lt;/li&gt;&lt;li&gt;Session Management&amp;nbsp;&lt;/li&gt;&lt;li&gt;Session Timeouts&amp;nbsp;&lt;/li&gt;&lt;li&gt;etc&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Event Thread&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Manages Zookeeper events&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Connection (KeeperState.SyncConnected)&lt;/li&gt;&lt;li&gt;Disconnection (KeeperState.Disconnected)&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Custom znode Watchers and Triggers we subscribe to&amp;nbsp;&lt;/li&gt;&lt;li&gt;Events are executed on Event Thread in order&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="270" width="440" x="-920" y="-180" as="geometry" />
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;b&gt;IO Thread&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Handles all the network communication with Zookeeper servers.&lt;/li&gt;&lt;li&gt;Handles Zookeeper requests and responses&amp;nbsp;&lt;/li&gt;&lt;li&gt;Responds to pings&amp;nbsp;&lt;/li&gt;&lt;li&gt;Session Management&amp;nbsp;&lt;/li&gt;&lt;li&gt;Session Timeouts&amp;nbsp;&lt;/li&gt;&lt;li&gt;etc&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;b&gt;Event Thread&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Manages Zookeeper events&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Connection (KeeperState.SyncConnected)&lt;/li&gt;&lt;li&gt;Disconnection (KeeperState.Disconnected)&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Custom znode Watchers and Triggers we subscribe to&amp;nbsp;&lt;/li&gt;&lt;li&gt;Events are executed on Event Thread in order&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="440" x="-920" y="-160" as="geometry" />
         </mxCell>
         <mxCell id="MGsdMgP7l0InPqgAwvWF-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Watchers and Triggers&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;We can register a watcher when we call the methods&lt;/li&gt;&lt;ul&gt;&lt;li&gt;getChildren(...)&lt;/li&gt;&lt;li&gt;getData(...)&lt;/li&gt;&lt;li&gt;exists(...)&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;The watcher allows us to get a notification when a change happens&lt;/li&gt;&lt;li&gt;getChildren(..., watcher) - Get notified when the list of a znode&#39;s children changes.&lt;/li&gt;&lt;li&gt;exists(znodePath, watcher) - Get notified if a znode gets deleted or created.&lt;/li&gt;&lt;li&gt;getData(znodePath, watcher) - Get notified if a znode&#39;s data gets modified.&lt;/li&gt;&lt;li&gt;public ZooKeeper(String connectString, int sessionTimeout, Watcher watcher) - Also takes a watcher&amp;nbsp;&lt;/li&gt;&lt;li&gt;Watcher registered with getChildren(), exists() and getData() are one-time triggers.&lt;/li&gt;&lt;li&gt;If we want to get future notifications, we need to register the watcher again.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="200" width="760" x="40" y="-680" as="geometry" />
@@ -260,6 +260,45 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-820" y="1280" as="sourcePoint" />
             <mxPoint x="-770" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-89" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Server&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="60" x="-920" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Server&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="60" x="-800" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-91" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Server&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="60" x="-680" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-94" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Server&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="60" x="-800" y="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-98" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Server&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="60" x="-800" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-99" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="MGsdMgP7l0InPqgAwvWF-90" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-770" y="1640" as="sourcePoint" />
+            <mxPoint x="-720" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-100" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-801" y="1680" as="sourcePoint" />
+            <mxPoint x="-860" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-101" edge="1" parent="1" source="MGsdMgP7l0InPqgAwvWF-98" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="MGsdMgP7l0InPqgAwvWF-94" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-761" y="1730" as="sourcePoint" />
+            <mxPoint x="-840" y="1730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-102" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MGsdMgP7l0InPqgAwvWF-91" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-740" y="1679.5" as="sourcePoint" />
+            <mxPoint x="-660" y="1680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
