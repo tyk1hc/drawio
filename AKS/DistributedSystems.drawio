@@ -11,7 +11,7 @@
           <mxGeometry height="40" width="40" x="-740" y="340" as="geometry" />
         </mxCell>
         <mxCell id="MGsdMgP7l0InPqgAwvWF-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Leader Election Algorithm" vertex="1">
-          <mxGeometry height="30" width="230" x="-850" y="290" as="geometry" />
+          <mxGeometry height="30" width="240" x="-880" y="290" as="geometry" />
         </mxCell>
         <mxCell id="MGsdMgP7l0InPqgAwvWF-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
           <mxGeometry height="40" width="40" x="-820" y="420" as="geometry" />
