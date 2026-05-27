@@ -586,6 +586,9 @@
         <mxCell id="kIgsmheDJQz7XmRfPmZH-83" parent="1" style="text;whiteSpace=wrap;html=1;" value="In a two-node master–slave architecture, data written to the master may not appear immediately on replicas, causing temporary inconsistencies. Once the updates are propagated, all replicas become consistent again — a model known as eventual consistency." vertex="1">
           <mxGeometry height="40" width="880" x="-1560" y="2640" as="geometry" />
         </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-84" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;b&gt;Eventual Consistency&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;In this model, if no further updates are made, eventually all readers will have access to the newest data.&lt;/li&gt;&lt;li&gt;However temporarily some readers may see stale data&lt;/li&gt;&lt;li&gt;Provides lower latency and higher availability&amp;nbsp;&lt;/li&gt;&lt;li&gt;Good choice for systems that do not need to have the most up to date data across the board.&lt;/li&gt;&lt;li&gt;Examples:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Posts/updates to social media profile&lt;/li&gt;&lt;li&gt;Analytics for product ratings and number of reviews&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="640" x="-640" y="2640" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
