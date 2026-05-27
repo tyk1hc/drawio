@@ -301,6 +301,42 @@
             <mxPoint x="-660" y="1680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;b&gt;Replication &lt;/b&gt;: Creating identical copies of all the data, and placing each copy on a different machine.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Sharding&lt;/b&gt;: Splitting the data and placing each chunk on a different machine.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="570" x="-1560" y="2210" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Db Instance" vertex="1">
+          <mxGeometry height="80" width="60" x="-1320" y="2380" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Client 1" vertex="1">
+          <mxGeometry height="40" width="80" x="-1560" y="2320" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Client 2" vertex="1">
+          <mxGeometry height="40" width="80" x="-1560" y="2400" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Client 3" vertex="1">
+          <mxGeometry height="40" width="80" x="-1560" y="2480" as="geometry" />
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;" target="kIgsmheDJQz7XmRfPmZH-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1480" y="2340" as="sourcePoint" />
+            <mxPoint x="-1430" y="2290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="kIgsmheDJQz7XmRfPmZH-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1480" y="2420" as="sourcePoint" />
+            <mxPoint x="-1320" y="2485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" target="kIgsmheDJQz7XmRfPmZH-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1480" y="2499.52" as="sourcePoint" />
+            <mxPoint x="-1320" y="2499.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kIgsmheDJQz7XmRfPmZH-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;strokeColor=#FF6666;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="120" width="120" x="-1350" y="2360" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
