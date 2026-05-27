@@ -76,6 +76,9 @@
             <mxPoint x="-660" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="MGsdMgP7l0InPqgAwvWF-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;IO Thread&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Handles all the network communication with Zookeeper servers.&lt;/li&gt;&lt;li&gt;Handles Zookeeper requests and responses&amp;nbsp;&lt;/li&gt;&lt;li&gt;Responds to pings&amp;nbsp;&lt;/li&gt;&lt;li&gt;Session Management&amp;nbsp;&lt;/li&gt;&lt;li&gt;Session Timeouts&amp;nbsp;&lt;/li&gt;&lt;li&gt;etc&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Event Thread&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Manages Zookeeper events&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Connection (KeeperState.SyncConnected)&lt;/li&gt;&lt;li&gt;Disconnection (KeeperState.Disconnected)&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Custom znode Watchers and Triggers we subscribe to&amp;nbsp;&lt;/li&gt;&lt;li&gt;Events are executed on Event Thread in order&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="270" width="720" x="-920" y="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
