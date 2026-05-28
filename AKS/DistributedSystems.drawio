@@ -747,7 +747,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Io5r8TIleDU7Dubmd4Zl-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;N = 5&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;R = 2&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;W = 4&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="40" x="-1560" y="4200" as="geometry" />
+          <mxGeometry height="80" width="40" x="-1560" y="4240" as="geometry" />
+        </mxCell>
+        <mxCell id="Io5r8TIleDU7Dubmd4Zl-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Quorum - High Availability" vertex="1">
+          <mxGeometry height="30" width="240" x="-1560" y="4170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
