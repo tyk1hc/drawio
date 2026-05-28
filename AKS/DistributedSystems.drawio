@@ -698,7 +698,7 @@
           <mxGeometry height="30" width="90" x="-990" y="3800" as="geometry" />
         </mxCell>
         <mxCell id="kIgsmheDJQz7XmRfPmZH-117" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Read (X)" vertex="1">
-          <mxGeometry height="30" width="90" x="-1010" y="3850" as="geometry" />
+          <mxGeometry height="30" width="90" x="-1020" y="3840" as="geometry" />
         </mxCell>
         <mxCell id="kIgsmheDJQz7XmRfPmZH-118" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Read (X)" vertex="1">
           <mxGeometry height="30" width="90" x="-985" y="3910" as="geometry" />
