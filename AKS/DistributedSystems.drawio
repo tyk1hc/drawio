@@ -752,6 +752,12 @@
         <mxCell id="Io5r8TIleDU7Dubmd4Zl-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Quorum - Optimization for Read High Availability" vertex="1">
           <mxGeometry height="30" width="270" x="-1560" y="4170" as="geometry" />
         </mxCell>
+        <mxCell id="Io5r8TIleDU7Dubmd4Zl-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Round Robin Strategy&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The simplest and most common strategy is Round Robin.&lt;/div&gt;&lt;div&gt;How it works:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Requests are distributed sequentially across servers.&lt;/li&gt;&lt;li&gt;Each server receives one request in turn.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Example:&amp;nbsp;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Request 1 -&amp;gt; Server A&lt;/li&gt;&lt;li&gt;Request 2 -&amp;gt; Server B&lt;/li&gt;&lt;li&gt;Request 3 -&amp;gt; Server C&lt;/li&gt;&lt;li&gt;Request 4 -&amp;gt; Server A&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Advantages:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Simple&amp;nbsp;&lt;/li&gt;&lt;li&gt;Fair distribution when&lt;/li&gt;&lt;ul&gt;&lt;li&gt;all servers are identical&amp;nbsp;&lt;/li&gt;&lt;li&gt;all requests require similar resources&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="320" width="360" x="-520" y="3600" as="geometry" />
+        </mxCell>
+        <mxCell id="Io5r8TIleDU7Dubmd4Zl-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="-120" y="3600" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
