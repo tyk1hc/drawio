@@ -770,6 +770,18 @@
         <mxCell id="Io5r8TIleDU7Dubmd4Zl-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div&gt;&lt;b&gt;Agent-Based Load Balancing&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;The most advanced strategy&lt;/div&gt;&lt;div&gt;How it works:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;An agent program runs on every server.&lt;/li&gt;&lt;li&gt;The agent reports real-time metrics to the load balancer.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Metrics may include:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;CPU usage&amp;nbsp;&lt;/li&gt;&lt;li&gt;memory usage&amp;nbsp;&lt;/li&gt;&lt;li&gt;Disk operations&lt;/li&gt;&lt;li&gt;Network traffic&lt;/li&gt;&lt;li&gt;Custom application metrics&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Benefits:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Most accurate traffic distribution&lt;/li&gt;&lt;li&gt;Load balancer makes smarter decisions based on real server conditions.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="320" width="360" x="-120" y="4360" as="geometry" />
         </mxCell>
+        <mxCell id="IwIkKV46eil07u7o1aj--1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="DB Instance" vertex="1">
+          <mxGeometry height="80" width="60" x="-2360" y="4145" as="geometry" />
+        </mxCell>
+        <mxCell id="IwIkKV46eil07u7o1aj--2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="App" vertex="1">
+          <mxGeometry height="40" width="40" x="-2480" y="4080" as="geometry" />
+        </mxCell>
+        <mxCell id="IwIkKV46eil07u7o1aj--3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="App" vertex="1">
+          <mxGeometry height="40" width="40" x="-2480" y="4160" as="geometry" />
+        </mxCell>
+        <mxCell id="IwIkKV46eil07u7o1aj--4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="App" vertex="1">
+          <mxGeometry height="40" width="40" x="-2480" y="4240" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
