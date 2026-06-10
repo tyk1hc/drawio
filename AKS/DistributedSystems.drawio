@@ -771,7 +771,7 @@
           <mxGeometry height="320" width="360" x="-120" y="4360" as="geometry" />
         </mxCell>
         <mxCell id="IwIkKV46eil07u7o1aj--1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="DB Instance" vertex="1">
-          <mxGeometry height="80" width="60" x="-2360" y="4145" as="geometry" />
+          <mxGeometry height="80" width="60" x="-2360" y="4140" as="geometry" />
         </mxCell>
         <mxCell id="IwIkKV46eil07u7o1aj--2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="App" vertex="1">
           <mxGeometry height="40" width="40" x="-2480" y="4080" as="geometry" />
@@ -781,6 +781,24 @@
         </mxCell>
         <mxCell id="IwIkKV46eil07u7o1aj--4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="App" vertex="1">
           <mxGeometry height="40" width="40" x="-2480" y="4240" as="geometry" />
+        </mxCell>
+        <mxCell id="IwIkKV46eil07u7o1aj--5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;dashed=1;dashPattern=8 8;" target="IwIkKV46eil07u7o1aj--1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2440" y="4100" as="sourcePoint" />
+            <mxPoint x="-2390" y="4050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwIkKV46eil07u7o1aj--6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" target="IwIkKV46eil07u7o1aj--1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2440" y="4180" as="sourcePoint" />
+            <mxPoint x="-2390" y="4130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwIkKV46eil07u7o1aj--7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;dashed=1;dashPattern=8 8;" target="IwIkKV46eil07u7o1aj--1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2440" y="4260" as="sourcePoint" />
+            <mxPoint x="-2390" y="4210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
