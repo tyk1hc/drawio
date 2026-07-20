@@ -130,7 +130,7 @@
             <mxRectangle height="40" width="320" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J-zNke_tOppB5j2uJXzS-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;div&gt;The pipeline executes them in order.&lt;/div&gt;&lt;div&gt;The first valid strategy can resolve the tenant, but if multiple strategies resolve different tenants, the request is rejected to prevent spoofing.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example:&lt;/div&gt;&lt;div&gt;Header: Tenant A&lt;/div&gt;&lt;div&gt;JWT: Tenant B&lt;/div&gt;&lt;div&gt;-&amp;gt; Reject Request.&lt;/div&gt;" vertex="1">
+        <mxCell id="J-zNke_tOppB5j2uJXzS-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;div&gt;The pipeline executes them in order.&lt;/div&gt;&lt;div&gt;The &lt;b&gt;first valid strategy&lt;/b&gt; can resolve the tenant, but if multiple strategies resolve &lt;b&gt;different tenants&lt;/b&gt;, the request is rejected to prevent spoofing.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example:&lt;/div&gt;&lt;div&gt;Header: Tenant A&lt;/div&gt;&lt;div&gt;JWT: Tenant B&lt;/div&gt;&lt;div&gt;-&amp;gt; Reject Request.&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="640" x="360" y="800" as="geometry" />
         </mxCell>
       </root>
