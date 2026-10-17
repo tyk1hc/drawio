@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="s1oqWP0Pq4JOAUdTVW0R-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Clients" vertex="1">
-          <mxGeometry height="60" width="30" x="40" y="100" as="geometry" />
+          <mxGeometry height="60" width="30" x="10" y="100" as="geometry" />
         </mxCell>
         <mxCell id="s1oqWP0Pq4JOAUdTVW0R-4" parent="1" style="image;aspect=fixed;html=1;align=center;fontSize=12;image=img/lib/azure2/networking/Load_Balancers.svg;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0],[0.758,0.242,0],[0.758,0.758,0],[0.242,0.758,0],[0.242,0.242,0]];" value="" vertex="1">
           <mxGeometry height="46" width="46" x="160" y="114" as="geometry" />
@@ -69,6 +69,15 @@
         </mxCell>
         <mxCell id="s1oqWP0Pq4JOAUdTVW0R-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;div&gt;&lt;font&gt;&lt;b&gt;&lt;font&gt;Cluster Monitoring&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;b&gt;&lt;font&gt;&amp;amp; AutoScaling (HPA)&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="37" width="160" x="320" y="321" as="geometry" />
+        </mxCell>
+        <mxCell id="s1oqWP0Pq4JOAUdTVW0R-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="53" y="138" as="sourcePoint" />
+            <mxPoint x="153" y="136.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1oqWP0Pq4JOAUdTVW0R-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTP Requests" vertex="1">
+          <mxGeometry height="30" width="60" x="71" y="103" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
