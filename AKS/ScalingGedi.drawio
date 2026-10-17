@@ -241,7 +241,7 @@
         <mxCell id="s1oqWP0Pq4JOAUdTVW0R-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Route Request" vertex="1">
           <mxGeometry height="30" width="60" x="763" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="s1oqWP0Pq4JOAUdTVW0R-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="KEDA" vertex="1">
+        <mxCell id="s1oqWP0Pq4JOAUdTVW0R-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Kubernetes Event Driven AutoScaler&lt;br&gt;(KEDA)" vertex="1">
           <mxGeometry height="69" width="120" x="477" y="831" as="geometry" />
         </mxCell>
         <mxCell id="s1oqWP0Pq4JOAUdTVW0R-73" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" target="s1oqWP0Pq4JOAUdTVW0R-50" value="">
