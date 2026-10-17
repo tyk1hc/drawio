@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="YCAL69XhHHolH4Vsgdxy">
-    <mxGraphModel dx="902" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2157" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,6 +138,9 @@
             <mxPoint x="600" y="270" as="sourcePoint" />
             <mxPoint x="716" y="250" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="s1oqWP0Pq4JOAUdTVW0R-40" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;span style=&quot;color: rgb(13, 13, 13); font-family: -apple-system-body, ui-sans-serif, -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Helvetica, &amp;quot;Apple Color Emoji&amp;quot;, Arial, sans-serif, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-line; background-color: rgb(252, 252, 252); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;The frontend and backend scale in and out based on CPU and memory utilization. If CPU or memory utilization exceeds 85%, the frontend and backend will scale out from 1 pod to 2 or 3 pods, depending on the HPA configuration, to handle user requests.&lt;/span&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="170" width="346.87" x="-80" y="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
