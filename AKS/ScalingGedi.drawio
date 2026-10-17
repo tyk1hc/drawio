@@ -334,8 +334,8 @@
         <mxCell id="s1oqWP0Pq4JOAUdTVW0R-99" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Nginx Ingress&amp;nbsp;&lt;/div&gt;&lt;div&gt;Controller&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="120" x="340.5" y="1556" as="geometry" />
         </mxCell>
-        <mxCell id="s1oqWP0Pq4JOAUdTVW0R-100" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Azure Kuberntes&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Service Cluster&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="160" x="307" y="1380" as="geometry" />
+        <mxCell id="s1oqWP0Pq4JOAUdTVW0R-100" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Azure Kuberntes&amp;nbsp;Service Cluster&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="332.5" x="307" y="1370" as="geometry" />
         </mxCell>
         <mxCell id="s1oqWP0Pq4JOAUdTVW0R-101" parent="1" style="image;aspect=fixed;html=1;align=center;fontSize=12;image=img/lib/azure2/management_governance/Metrics.svg;points=[[0.5,1,0],[0.003,0.571,0],[0.979,0.5,0],[0.975,0.035,0],[0.975,0.992,0],[0.025,0.99,0],[0.266,0.223,0]];" value="" vertex="1">
           <mxGeometry height="46" width="42.46" x="377.5" y="1597.41" as="geometry" />
@@ -398,7 +398,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="s1oqWP0Pq4JOAUdTVW0R-119" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;path /&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="260" y="1496" as="geometry" />
+          <mxGeometry height="30" width="60" x="247" y="1496" as="geometry" />
         </mxCell>
         <mxCell id="s1oqWP0Pq4JOAUdTVW0R-120" edge="1" parent="1" source="s1oqWP0Pq4JOAUdTVW0R-98" style="endArrow=classic;html=1;rounded=0;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="s1oqWP0Pq4JOAUdTVW0R-103" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -455,13 +455,13 @@
           <mxGeometry height="80" width="960" x="57" y="1800" as="geometry" />
         </mxCell>
         <mxCell id="s1oqWP0Pq4JOAUdTVW0R-131" parent="1" style="image;aspect=fixed;html=1;align=center;fontSize=12;image=img/lib/azure2/networking/Application_Gateways.svg;points=[[0.5,0,0],[0.5,1,0],[0,0.5,0],[1,0.5,0],[0.758,0.242,0],[0.758,0.758,0],[0.242,0.758,0],[0.242,0.242,0]];" value="" vertex="1">
-          <mxGeometry height="48" width="48" x="187" y="1420" as="geometry" />
+          <mxGeometry height="48" width="48" x="185" y="1410.41" as="geometry" />
         </mxCell>
         <mxCell id="s1oqWP0Pq4JOAUdTVW0R-134" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Azure Application Gateway" vertex="1">
           <mxGeometry height="30" width="120" x="150" y="1466" as="geometry" />
         </mxCell>
         <mxCell id="s1oqWP0Pq4JOAUdTVW0R-135" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Azure Application Gateway Ingress Controller (AGIC)" vertex="1">
-          <mxGeometry height="53.17" width="110" x="330" y="1426" as="geometry" />
+          <mxGeometry height="53.17" width="110" x="343.73" y="1426" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
