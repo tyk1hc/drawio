@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="YCAL69XhHHolH4Vsgdxy">
-    <mxGraphModel dx="1203" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1534" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -461,7 +461,19 @@
           <mxGeometry height="30" width="120" x="150" y="1466" as="geometry" />
         </mxCell>
         <mxCell id="s1oqWP0Pq4JOAUdTVW0R-135" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Azure Application Gateway Ingress Controller (AGIC)" vertex="1">
-          <mxGeometry height="53.17" width="110" x="343.73" y="1426" as="geometry" />
+          <mxGeometry height="53.17" width="110" x="350.5" y="1404.83" as="geometry" />
+        </mxCell>
+        <mxCell id="jMbBfgFuGxGuHoXLyJop-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s1oqWP0Pq4JOAUdTVW0R-135" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="233" y="1435.795" as="sourcePoint" />
+            <mxPoint x="270" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jMbBfgFuGxGuHoXLyJop-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="s1oqWP0Pq4JOAUdTVW0R-103" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460.5" y="1430" as="sourcePoint" />
+            <mxPoint x="754.5" y="1348" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
