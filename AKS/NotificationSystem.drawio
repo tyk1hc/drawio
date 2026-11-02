@@ -25,13 +25,13 @@
         <mxCell id="MzMv4-ljhG1_KL5RyV-W-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Monitor&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Delivery Logs &amp;amp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Retries&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="160" x="340" y="600" as="geometry" />
         </mxCell>
-        <mxCell id="MzMv4-ljhG1_KL5RyV-W-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="End User" vertex="1">
+        <mxCell id="MzMv4-ljhG1_KL5RyV-W-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" value="End User" vertex="1">
           <mxGeometry height="60" width="30" x="110" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="MzMv4-ljhG1_KL5RyV-W-13" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Client App" vertex="1">
+        <mxCell id="MzMv4-ljhG1_KL5RyV-W-13" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" value="Client App" vertex="1">
           <mxGeometry height="60" width="30" x="110" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="MzMv4-ljhG1_KL5RyV-W-14" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="System Admin" vertex="1">
+        <mxCell id="MzMv4-ljhG1_KL5RyV-W-14" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" value="System Admin" vertex="1">
           <mxGeometry height="60" width="30" x="650" y="540" as="geometry" />
         </mxCell>
         <mxCell id="MzMv4-ljhG1_KL5RyV-W-15" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MzMv4-ljhG1_KL5RyV-W-2" value="">
