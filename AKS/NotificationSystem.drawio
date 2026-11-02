@@ -64,6 +64,27 @@
             <mxPoint x="640" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="KfPD4546m2vL8fkKgo1T-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;align=center;" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Notification&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;System&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="520" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="KfPD4546m2vL8fkKgo1T-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;User Preference Store&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="520" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="KfPD4546m2vL8fkKgo1T-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="360" width="200" x="160" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="KfPD4546m2vL8fkKgo1T-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Templates&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="520" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="KfPD4546m2vL8fkKgo1T-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="360" width="200" x="880" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="KfPD4546m2vL8fkKgo1T-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Upstream Services&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;(Events)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="180" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="KfPD4546m2vL8fkKgo1T-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Delivery Channels&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="900" y="880" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
