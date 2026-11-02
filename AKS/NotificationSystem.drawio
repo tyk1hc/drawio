@@ -115,9 +115,6 @@
             <mxPoint x="920" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KfPD4546m2vL8fkKgo1T-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Functional Requirements&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="200" x="920" y="90" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
